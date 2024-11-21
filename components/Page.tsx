@@ -1,4 +1,4 @@
-import style from './Page.module.css'
+import style from './Page.module.scss'
 
 import {PropsWithChildren} from 'react'
 

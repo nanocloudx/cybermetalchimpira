@@ -1,5 +1,5 @@
 'use client'
-import style from './Navigation.module.css'
+import style from './Navigation.module.scss'
 import {PropsWithChildren} from 'react'
 
 export function Navigation({children}: PropsWithChildren) {

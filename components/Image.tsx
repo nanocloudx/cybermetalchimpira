@@ -1,4 +1,4 @@
-import style from './Image.module.css'
+import style from './Image.module.scss'
 
 type Props = {
   src: string
