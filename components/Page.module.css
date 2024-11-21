@@ -1,0 +1,65 @@
+.page {
+  position: relative;
+  margin: 0 auto 1rem;
+  background-color: #fff;
+  width: 176mm;
+  height: 250mm;
+  padding: 16mm;
+  &.even {
+    padding-left: 16mm;
+    padding-right: 24mm;
+  }
+  &.odd {
+    padding-left: 24mm;
+    padding-right: 16mm;
+  }
+}
+.pageNumber {
+  position: absolute;
+  top: 238mm;
+  left: 50%;
+  right: 50%;
+  font-size: 0.7rem;
+  color: #555;
+}
+.container {
+  width: calc(176mm - 40mm);
+  height: calc(250mm - 32mm);
+  border: 1px dashed #00c4ff; /* preview */
+  overflow-wrap: anywhere; /* 収まらない場合に折り返す */
+  word-break: normal; /* 単語の分割はデフォルトに依存 */
+  line-break: strict; /* 禁則処理を厳格に適用 */
+  @media print {
+    border: none;
+  }
+  p {
+    font-size: 0.8rem;
+    line-height: 1.45;
+    margin-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin: 2rem 0 0.8rem;
+  }
+  h2:first-child {
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 1.1rem;
+    margin: 1.3rem 0 0.5rem;
+  }
+  h3:first-child {
+    margin-top: 0;
+  }
+  blockquote {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin: 0.8rem 1rem;
+    color: #333;
+  }
+  hr {
+    border: 0;
+    border-bottom: 2px solid #ddd;
+    margin: 1.5rem 0;
+  }
+}
