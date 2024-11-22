@@ -16,11 +16,19 @@
 }
 .pageNumber {
   position: absolute;
-  top: 238mm;
+  top: 240mm;
   left: 50%;
   right: 50%;
   font-size: 0.7rem;
   color: #555;
+  &.even {
+    left: calc(50% - 4mm);
+    right: calc(50% + 4mm);
+  }
+  &.odd {
+    left: calc(50% + 4mm);
+    right: calc(50% - 4mm);
+  }
 }
 .container {
   width: calc(176mm - 40mm);
