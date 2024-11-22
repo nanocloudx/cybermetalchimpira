@@ -23,13 +23,13 @@ export function Title(props: Props) {
         <p className={style.name}>{props.name}</p>
         {props.linkX && (
           <>
-            <AtSignIcon size={18} />
+            <AtSignIcon size={18} style={{marginRight: '0.1rem'}} />
             <p className={style.linkX}>{props.linkX}</p>
           </>
         )}
         {props.linkWeb && (
           <>
-            <RssIcon size={18} />
+            <RssIcon size={18} style={{marginRight: '0.1rem'}} />
             <p className={style.linkWeb}>{props.linkWeb}</p>
           </>
         )}
