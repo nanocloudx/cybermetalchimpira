@@ -9,6 +9,9 @@
   @media print {
     display: none;
   }
+  @media (max-width: 768px) {
+    display: none;
+  }
   opacity: 0.2;
 
   &:hover {

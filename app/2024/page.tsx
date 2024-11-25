@@ -24,7 +24,7 @@ const pageCount = {
   mokuji: 1,
   prologue: 2,
   daichiro: 4,
-  kinoppyd: 2,
+  kinoppyd: 6,
   arushiro: 2,
   kusano: 2,
   shodaiSato: 2,
