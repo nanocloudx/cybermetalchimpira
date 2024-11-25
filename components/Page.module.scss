@@ -62,19 +62,17 @@
   h2 {
     font-size: 1.25rem;
     margin: 2rem 0 0.8rem;
-  }
-
-  h2:first-child {
-    margin-top: 0;
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   h3 {
     font-size: 1.1rem;
     margin: 1.3rem 0 0.5rem;
-  }
-
-  h3:first-child {
-    margin-top: 0;
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   blockquote {
@@ -99,5 +97,10 @@
     font-size: 0.8rem;
     line-height: 1.45;
     margin-bottom: 0.7rem;
+    li ul {
+      list-style-type: circle;
+      margin-left: 1.5rem;
+      font-size: 0.75rem;
+    }
   }
 }
