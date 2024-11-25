@@ -54,7 +54,7 @@ function getPageNumber(section: keyof typeof pageCount) {
 export default function Page() {
   return (
     <div>
-      <Navigation>
+      <Navigation year={'2024'}>
         <li><a href={'#mokuji'}>目次</a></li>
         <li><a href={'#prologue'}>プロローグ</a></li>
         <li><a href={'#daichiro'}>だいちろ</a></li>

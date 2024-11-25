@@ -2,10 +2,15 @@
 import style from './Navigation.module.scss'
 import {PropsWithChildren} from 'react'
 
-export function Navigation({children}: PropsWithChildren) {
+type Props = {
+  year: string
+}
+
+export function Navigation({children, year}: PropsWithChildren<Props>) {
   return (
     <div className={style.main}>
-      <p className={style.heading}>サイバーメタルチンピラ</p>
+      <p className={style.heading}>サイバーメタルチンピラ<br />Viewer</p>
+      <h2 style={{textAlign: 'center'}}>{year}</h2>
       <ul>
         {children}
       </ul>
