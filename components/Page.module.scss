@@ -39,10 +39,11 @@
 .container {
   width: calc(176mm - 40mm);
   height: calc(250mm - 32mm);
-  border: 1px dashed #00c4ff; /* preview */
+  border: 1px dashed #ccddee; /* preview */
   overflow-wrap: anywhere; /* 収まらない場合に折り返す */
   word-break: normal; /* 単語の分割はデフォルトに依存 */
   line-break: strict; /* 禁則処理を厳格に適用 */
+  text-align: justify;
   @media print {
     border: none;
   }
