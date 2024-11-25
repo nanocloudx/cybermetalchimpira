@@ -10,7 +10,7 @@ type Props = {
 export function Nanocloudx({pageNumber}: Props) {
   return (
     <div id={'nanocloudx'}>
-      <Page pageNumber={pageNumber}>
+      <Page pageNumber={pageNumber + 0}>
         <Title
           title={'ドバイで石油王になろう'}
           description={'5000兆円欲しいのでUAEに行ってきたわよ！'}
@@ -96,7 +96,7 @@ export function Nanocloudx({pageNumber}: Props) {
             地上高829.8mはどこから見ても圧倒的な存在感。地上555m(148階)には展望室あり。
             吹き付ける熱波に耐えるため、高度な建築技術が集まっているのも建築好きには堪りませんわね！
           </p>
-          <Image height={'100mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう高すぎてしゅごい//////'}/>
+          <Image height={'100mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう高すぎてしゅごい'}/>
         </section>
       </Page>
       <Page pageNumber={pageNumber + 3}>
@@ -110,7 +110,7 @@ export function Nanocloudx({pageNumber}: Props) {
                 モール内には1200以上の店舗の他、水族館、スケートリンク、カートサーキット、映画館、ホテルなどなど。
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう広すぎてしゅごい////////////'}/>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう広すぎてしゅごい'}/>
           </TwoColumn>
         </section>
         <section>
@@ -123,7 +123,7 @@ export function Nanocloudx({pageNumber}: Props) {
                 サメとのふれあいコーナーもありますわよ、逝ってらっしゃいまし！！！
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'ふれあいというか罰ゲームじゃん////////////'}/>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'ふれあいというか罰ゲームじゃん'}/>
           </TwoColumn>
         </section>
         <section>
@@ -136,7 +136,7 @@ export function Nanocloudx({pageNumber}: Props) {
                 夕方18時頃から30分毎に行われるので、ショッピングの合間に見るのがおすすめでしてよ。
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう規模感がしゅごい////////////'}/>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう大迫力でしゅごい'}/>
           </TwoColumn>
           <p>
             あまりに広すぎて、ドバイ・モールだけで旅が終わってしまうので、違うところにも行ってみましょ。
@@ -154,8 +154,100 @@ export function Nanocloudx({pageNumber}: Props) {
                 ブルジュ・ハリファが高すぎるせいで錯覚するけど、こちらも十分高層タワーなのだわ〜！
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう落ちそうでしゅごい////////////'}/>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう落ちそうでしゅごい'}/>
           </TwoColumn>
+        </section>
+        <section>
+          <TwoColumn>
+            <div>
+              <h2>パーム・ジュメイラ</h2>
+              <p>
+                海岸部に建設された人工島「パーム・ジュメイラ」。
+                ヤシの形に作られた島内は、世界中の富豪たちが別荘地として豪邸を構えているのだわ！
+                ドバイにいると感覚が狂ってきますわね。
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんかもう規模感がしゅごい'}/>
+          </TwoColumn>
+        </section>
+        <section>
+          <TwoColumn>
+            <div>
+              <h2>ディナーインザスカイ</h2>
+              <p>
+                空中でディナーを頂きましょう（は？？？）
+                クレーンで地上50mまで上昇、宙ぶらりんの状態で、シェフ自慢の極上料理をご堪能。
+                なかなか美味でしたけれども、なんで浮いてるんですかねぇ。。。
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'どういうことやねん'}/>
+          </TwoColumn>
+          <p>
+            せっかくですから、都市部だけでなく砂漠にも行ってみましょ。
+          </p>
+        </section>
+      </Page>
+      <Page pageNumber={pageNumber + 5}>
+        <section>
+          <TwoColumn>
+            <div>
+              <h2>デザートサファリ</h2>
+              <p>
+                せっかく砂漠に来たのですから、砂漠でのアクティビティも愉しみましょうね。
+                デザートサファリでは、凹凸の激しい砂漠の上をクレイジーな運転手が爆走してくれますわ！
+                自然のジェットコースターを愉しみつつ、夕日が沈む時間帯の砂漠は絶景ですの！
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'横転しないんだろうか'}/>
+          </TwoColumn>
+        </section>
+        <section>
+          <TwoColumn>
+            <div>
+              <h2>熱気球</h2>
+              <p>
+                夜明け前の砂漠から気球に乗って、空中から朝日を眺めましょうね。
+                遥か遠くまで続く砂漠を、空からふわふわ眺めるのは格別でしてよ〜〜〜
+                広大な世界とちっぽけな私。世界の広さを直感的に感じられますわ。
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'砂漠が海に見えますわ！'}/>
+          </TwoColumn>
+        </section>
+        <section>
+          <TwoColumn>
+            <div>
+              <h2>アル・シーフ地区</h2>
+              <p>
+                エクストリームな体験ばかりで疲れちゃいますので、落ち着いた場所にも行きましょうね。
+                海岸沿いに並ぶドバイの伝統的な町並みを体験できますの。アラジンの世界みたいですわ〜
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'どういうことやねん'}/>
+          </TwoColumn>
+        </section>
+      </Page>
+      <Page pageNumber={pageNumber + 6}>
+        <section>
+          <div>
+            <h2>不思議な建造物</h2>
+            <p>
+              電車で移動中にも不思議な建造物がたくさんありましたわ〜
+              景色を眺めているだけでも十分楽しめますわね。
+            </p>
+          </div>
+          <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'横転しないんだろうか'}/>
+          <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'横転しないんだろうか'}/>
+        </section>
+        <section>
+          <div>
+            <h2>ドバイはいいぞ</h2>
+            <p>
+              振り返ってみると、高所に登ったり降りたりを繰り返してますわね...
+              何もかもが世界一、右を見ても左を見ても石油王(大嘘)、たまげましたわぁ。
+              非日常を体験したいなら、ドバイはおすすめですの。あなたもドバイで石油王気分を体験してみませんか？
+            </p>
+          </div>
         </section>
       </Page>
     </div>
