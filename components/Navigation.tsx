@@ -9,7 +9,10 @@ export function Navigation({children}: PropsWithChildren) {
       <ul>
         {children}
       </ul>
-      <button onClick={() => {window.print()}} className={style.print}>印刷</button>
+      <button onClick={() => {
+        window.print()
+      }} className={style.print}>印刷
+      </button>
     </div>
   )
 }

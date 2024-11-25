@@ -1,8 +1,5 @@
 import style from './Title.module.scss'
-import {
-  AtSignIcon, CloudIcon, EarthIcon, GlobeIcon, MonitorSmartphoneIcon,
-  RssIcon,
-} from 'lucide-react'
+import {AtSignIcon, MonitorSmartphoneIcon,} from 'lucide-react'
 
 type Props = {
   title: string
@@ -24,13 +21,13 @@ export function Title(props: Props) {
         <p className={style.name}>{props.name}</p>
         {props.linkX && (
           <>
-            <AtSignIcon size={18} style={{marginRight: '0.1rem'}} />
+            <AtSignIcon size={18} style={{marginRight: '0.1rem'}}/>
             <p className={style.linkX}>{props.linkX}</p>
           </>
         )}
         {props.linkWeb && (
           <>
-            <MonitorSmartphoneIcon size={18} style={{marginRight: '0.1rem'}} />
+            <MonitorSmartphoneIcon size={18} style={{marginRight: '0.1rem'}}/>
             <p className={style.linkWeb}>{props.linkWeb}</p>
           </>
         )}

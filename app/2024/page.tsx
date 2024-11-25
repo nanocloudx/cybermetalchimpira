@@ -76,24 +76,24 @@ export default function Page() {
         <li><a href={'#okuduke'}>奥付</a></li>
       </Navigation>
       <Mokuji pageNumber={getPageNumber('mokuji')}/>
-      <Prologue pageNumber={getPageNumber('prologue')} />
-      <Daichiro pageNumber={getPageNumber('daichiro')} />
-      <Kinoppyd pageNumber={getPageNumber('kinoppyd')} />
-      <Arushiro pageNumber={getPageNumber('arushiro')} />
-      <Kusano pageNumber={getPageNumber('kusano')} />
-      <ShodaiSato pageNumber={getPageNumber('shodaiSato')} />
-      <Dera pageNumber={getPageNumber('dera')} />
-      <Pokeba pageNumber={getPageNumber('pokeba')} />
-      <Quisty pageNumber={getPageNumber('quisty')} />
-      <ShiratamaIori pageNumber={getPageNumber('shiratamaIori')} />
-      <Nanocloudx pageNumber={getPageNumber('nanocloudx')} />
-      <Sashimi pageNumber={getPageNumber('sashimi')} />
-      <Fuyutsubaki pageNumber={getPageNumber('fuyutsubaki')} />
-      <Nag4 pageNumber={getPageNumber('nag4')} />
-      <Nagaimichiko pageNumber={getPageNumber('nagaimichiko')} />
+      <Prologue pageNumber={getPageNumber('prologue')}/>
+      <Daichiro pageNumber={getPageNumber('daichiro')}/>
+      <Kinoppyd pageNumber={getPageNumber('kinoppyd')}/>
+      <Arushiro pageNumber={getPageNumber('arushiro')}/>
+      <Kusano pageNumber={getPageNumber('kusano')}/>
+      <ShodaiSato pageNumber={getPageNumber('shodaiSato')}/>
+      <Dera pageNumber={getPageNumber('dera')}/>
+      <Pokeba pageNumber={getPageNumber('pokeba')}/>
+      <Quisty pageNumber={getPageNumber('quisty')}/>
+      <ShiratamaIori pageNumber={getPageNumber('shiratamaIori')}/>
+      <Nanocloudx pageNumber={getPageNumber('nanocloudx')}/>
+      <Sashimi pageNumber={getPageNumber('sashimi')}/>
+      <Fuyutsubaki pageNumber={getPageNumber('fuyutsubaki')}/>
+      <Nag4 pageNumber={getPageNumber('nag4')}/>
+      <Nagaimichiko pageNumber={getPageNumber('nagaimichiko')}/>
       <Atogaki pageNumber={getPageNumber('atogaki')}/>
-      <Omake pageNumber={getPageNumber('omake')} />
-      <Okuduke />
+      <Omake pageNumber={getPageNumber('omake')}/>
+      <Okuduke/>
     </div>
   )
 }

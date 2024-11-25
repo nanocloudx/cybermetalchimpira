@@ -5,15 +5,18 @@
   width: 176mm;
   height: 250mm;
   padding: 16mm;
+
   &.even {
     padding-left: 16mm;
     padding-right: 24mm;
   }
+
   &.odd {
     padding-left: 24mm;
     padding-right: 16mm;
   }
 }
+
 .pageNumber {
   position: absolute;
   top: 240mm;
@@ -21,15 +24,18 @@
   right: 50%;
   font-size: 0.7rem;
   color: #555;
+
   &.even {
     left: calc(50% - 4mm);
     right: calc(50% + 4mm);
   }
+
   &.odd {
     left: calc(50% + 4mm);
     right: calc(50% - 4mm);
   }
 }
+
 .container {
   width: calc(176mm - 40mm);
   height: calc(250mm - 32mm);
@@ -40,40 +46,49 @@
   @media print {
     border: none;
   }
+
   p {
     font-size: 0.8rem;
     line-height: 1.45;
     margin-bottom: 0.7rem;
   }
+
   b {
     font-weight: bold;
     font-size: 0.83rem;
   }
+
   h2 {
     font-size: 1.25rem;
     margin: 2rem 0 0.8rem;
   }
+
   h2:first-child {
     margin-top: 0;
   }
+
   h3 {
     font-size: 1.1rem;
     margin: 1.3rem 0 0.5rem;
   }
+
   h3:first-child {
     margin-top: 0;
   }
+
   blockquote {
     font-size: 0.75rem;
     font-style: italic;
     margin: 0.8rem 1rem;
     color: #333;
   }
+
   hr {
     border: 0;
     border-bottom: 2px solid #ddd;
     margin: 1.5rem 0;
   }
+
   section {
     margin-bottom: 2rem;
   }

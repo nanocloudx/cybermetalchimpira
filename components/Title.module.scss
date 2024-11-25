@@ -3,24 +3,29 @@
   padding-bottom: 0.6rem;
   margin-bottom: 1rem;
 }
+
 h1.title {
   font-size: 1.7rem;
   margin-bottom: 0.25rem;
   white-space: nowrap;
 }
+
 p.description {
   font-size: 0.95rem;
   margin-bottom: 0.3rem;
 }
+
 .info {
   display: flex;
   align-items: center;
+
   p:not(:last-child)::after {
     padding: 0 3mm;
     content: "/";
     font-weight: normal;
   }
 }
+
 .image {
   width: 10mm;
   height: 10mm;
@@ -28,15 +33,18 @@ p.description {
   margin-right: 0.4rem;
   filter: grayscale(100%);
 }
+
 p.name {
   margin: 0;
   font-weight: bold;
   font-size: 0.85rem;
 }
+
 p.linkX {
   margin: 0;
   font-size: 0.85rem;
 }
+
 p.linkWeb {
   margin: 0;
   font-size: 0.85rem;

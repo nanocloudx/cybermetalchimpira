@@ -1,5 +1,5 @@
 import type {Metadata} from 'next'
-import { enFont, jaFont } from './fonts'
+import {enFont, jaFont} from './fonts'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Welcome to underground...',
 }
 
-export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
+export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja">
     <body className={`${enFont.variable} ${jaFont.variable}`}>

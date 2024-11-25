@@ -1,6 +1,7 @@
 .main {
   margin: 1rem auto;
 }
+
 .image {
   display: block;
   object-fit: contain;
@@ -8,9 +9,11 @@
   margin: 0 auto;
   filter: grayscale(100%);
 }
+
 .main:first-child {
   margin-top: 0;
 }
+
 .caption {
   display: block;
   text-align: center;
