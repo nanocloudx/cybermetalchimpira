@@ -10,10 +10,10 @@ export function Arushiro({pageNumber}: Props) {
     <div id={'arushiro'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'達成感中毒患者と難しいゲーム達'}
+          description={'壺おじなどの登山ゲーやその他難しいゲームについて'}
+          name={'あるしろ'}
+          image={'/2024/authors/arushiro.png'}
         />
         <p>It works!</p>
       </Page>

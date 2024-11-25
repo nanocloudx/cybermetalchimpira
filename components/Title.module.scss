@@ -26,6 +26,7 @@ p.description {
   height: 10mm;
   object-fit: cover;
   margin-right: 0.4rem;
+  filter: grayscale(100%);
 }
 p.name {
   margin: 0;

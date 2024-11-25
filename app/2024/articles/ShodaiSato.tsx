@@ -10,10 +10,10 @@ export function ShodaiSato({pageNumber}: Props) {
     <div id={'shodaiSato'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'愛と金'}
+          description={'あるいは信頼と信用'}
+          name={'めたもん'}
+          image={'/2024/authors/shodaisato.png'}
         />
         <p>It works!</p>
       </Page>

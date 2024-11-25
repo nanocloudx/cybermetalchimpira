@@ -10,10 +10,11 @@ export function Kusano({pageNumber}: Props) {
     <div id={'kusano'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'視覚暗号'}
+          description={'サイバー空間で使われているものとはちょっと違った面白い暗号の紹介'}
+          name={'kusano_k'}
+          image={'/2024/authors/kusano.png'}
+          linkX={'kusano_k'}
         />
         <p>It works!</p>
       </Page>

@@ -10,10 +10,12 @@ export function Nag4({pageNumber}: Props) {
     <div id={'nag4'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'死ぬ日を自分で決める「自寿死」という考え'}
+          description={'寿命を自分で決めれば、人生の質を上げられるという話'}
+          name={'nag4'}
+          image={'/2024/authors/nag4.png'}
+          titleFontSize={'1.61rem'}
+          linkX={'nag4'}
         />
         <p>It works!</p>
       </Page>

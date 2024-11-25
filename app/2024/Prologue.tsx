@@ -9,10 +9,10 @@ export function Prologue({pageNumber}: Props) {
   return (
     <div id={'prologue'}>
       <Page pageNumber={pageNumber}>
-        <p>It works!</p>
+        <p>*** TODO プロローグ ***</p>
       </Page>
       <Page pageNumber={pageNumber + 1}>
-        <p>It works!</p>
+        <p>*** TODO プロローグ ***</p>
       </Page>
     </div>
   )

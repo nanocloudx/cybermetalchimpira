@@ -10,10 +10,10 @@ export function Pokeba({pageNumber}: Props) {
     <div id={'pokeba'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'リファレンスチェックに想いを馳せる'}
+          description={'推薦者視点での備忘録'}
+          name={'狂戦士P'}
+          image={'/2024/authors/pokeba.png'}
         />
         <p>It works!</p>
       </Page>

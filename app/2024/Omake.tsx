@@ -9,7 +9,7 @@ export function Omake({pageNumber}: Props) {
   return (
     <div id={'omake'}>
       <Page pageNumber={pageNumber}>
-        <p>It works!</p>
+        <p>*** TODO おまけ ***</p>
       </Page>
     </div>
   )

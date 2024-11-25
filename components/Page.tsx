@@ -12,7 +12,9 @@ export function Page({children, pageNumber}: PropsWithChildren<Props>) {
       <div className={style.container}>
         {children}
       </div>
-      <div className={`${style.pageNumber} ${pageNumber % 2 === 0 ? style.even : style.odd}`}>{pageNumber}</div>
+      {pageNumber !== 0 && (
+        <div className={`${style.pageNumber} ${pageNumber % 2 === 0 ? style.even : style.odd}`}>{pageNumber}</div>
+      )}
     </div>
   )
 }

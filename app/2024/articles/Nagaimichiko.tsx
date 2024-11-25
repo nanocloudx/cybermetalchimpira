@@ -10,10 +10,10 @@ export function Nagaimichiko({pageNumber}: Props) {
     <div id={'nagaimichiko'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'662日目のラブレター'}
+          description={'子どもへの愛を叫ぶ'}
+          name={'ながいたん'}
+          image={'/2024/authors/nagaimichiko.jpeg'}
         />
         <p>It works!</p>
       </Page>

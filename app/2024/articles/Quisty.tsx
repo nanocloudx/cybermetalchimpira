@@ -10,10 +10,10 @@ export function Quisty({pageNumber}: Props) {
     <div id={'quisty'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'異変を見つけたら、すぐに引き返すこと。'}
+          description={'転職面接などで体験した事から働くという事を考える何か'}
+          name={'きすちぃ'}
+          image={'/2024/authors/quisty.png'}
         />
         <p>It works!</p>
       </Page>

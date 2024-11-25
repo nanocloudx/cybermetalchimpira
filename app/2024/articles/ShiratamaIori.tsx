@@ -10,10 +10,11 @@ export function ShiratamaIori({pageNumber}: Props) {
     <div id={'shiratamaIori'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'メイド喫茶店員がガールズバーに転生してみた'}
+          description={'***TODO 未指定***'}
+          name={'白玉いおり'}
+          image={'/2024/authors/shiratamaIori.jpg'}
+          titleFontSize={'1.53rem'}
         />
         <p>It works!</p>
       </Page>

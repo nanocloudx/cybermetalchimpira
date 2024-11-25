@@ -9,7 +9,7 @@ export function Atogaki({pageNumber}: Props) {
   return (
     <div id={'atogaki'}>
       <Page pageNumber={pageNumber}>
-        <p>It works!</p>
+        <p>*** TODO あとがき ***</p>
       </Page>
     </div>
   )

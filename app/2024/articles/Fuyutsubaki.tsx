@@ -10,10 +10,10 @@ export function Fuyutsubaki({pageNumber}: Props) {
     <div id={'fuyutsubaki'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'909ライブパフォーマンス(仮)'}
+          description={'***TODO 未指定***'}
+          name={'冬椿'}
+          image={'/2024/authors/fuyutsubaki.png'}
         />
         <p>It works!</p>
       </Page>

@@ -1,15 +1,10 @@
 import {Page} from '@/components/Page'
-import {Title} from '@/components/Title'
 
-type Props = {
-  pageNumber: number
-}
-
-export function Okuduke({pageNumber}: Props) {
+export function Okuduke() {
   return (
     <div id={'okuduke'}>
-      <Page pageNumber={pageNumber}>
-        <p>It works!</p>
+      <Page pageNumber={0}>
+        <p>*** TODO 奥付 ***</p>
       </Page>
     </div>
   )

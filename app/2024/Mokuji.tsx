@@ -9,13 +9,7 @@ export function Mokuji({pageNumber}: Props) {
   return (
     <div id={'mokuji'}>
       <Page pageNumber={pageNumber}>
-        <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
-        />
-        <p>It works!</p>
+        <p>*** TODO もくじ ***</p>
       </Page>
     </div>
   )

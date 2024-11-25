@@ -10,10 +10,10 @@ export function Kinoppyd({pageNumber}: Props) {
     <div id={'kinoppyd'}>
       <Page pageNumber={pageNumber}>
         <Title
-          title={''}
-          description={''}
-          name={'xxx'}
-          image={'/2024/xxx/author.jpg'}
+          title={'ワインの味とは何なのか'}
+          description={'ワインの香りを嗅いで銘柄当てるとかあれフィクションだから'}
+          name={'kinoppyd'}
+          image={'/2024/authors/kinoppyd.jpeg'}
         />
         <p>It works!</p>
       </Page>

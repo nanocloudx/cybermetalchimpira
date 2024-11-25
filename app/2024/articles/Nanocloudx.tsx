@@ -15,7 +15,7 @@ export function Nanocloudx({pageNumber}: Props) {
           title={'ドバイで石油王になろう'}
           description={'5000兆円欲しいのでUAEに行ってきたわよ！'}
           name={'なのくろ'}
-          image={'/2024/nanocloudx/author.jpg'}
+          image={'/2024/authors/nanocloudx.jpg'}
           linkX={'nanocloudx'}
           linkWeb={'wwww.dev'}
         />
@@ -236,15 +236,15 @@ export function Nanocloudx({pageNumber}: Props) {
               景色を眺めているだけでも十分楽しめますわね。
             </p>
           </div>
-          <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'横転しないんだろうか'}/>
-          <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'横転しないんだろうか'}/>
+          <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'なんだこれは'}/>
+          <Image height={'50mm'} src={'/2024/nanocloudx/2.jpg'} alt={'たまげたなぁ'}/>
         </section>
         <section>
           <div>
             <h2>ドバイはいいぞ</h2>
             <p>
               振り返ってみると、高所に登ったり降りたりを繰り返してますわね...
-              何もかもが世界一、右を見ても左を見ても石油王(大嘘)、たまげましたわぁ。
+              何もかもが世界一、右を見ても左を見ても石油王(大嘘)、すごいですわねぇ。
               非日常を体験したいなら、ドバイはおすすめですの。あなたもドバイで石油王気分を体験してみませんか？
             </p>
           </div>
