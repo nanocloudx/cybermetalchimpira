@@ -185,7 +185,7 @@ export function Nanocloudx({pageNumber}: Props) {
         <section>
         <TwoColumn>
           <div>
-            <h2>ディナーインザスカイ</h2>
+            <h2>ディナー インザ スカイ</h2>
             <p style={{marginTop: '-0.8rem'}}>(Dinner in The Sky, عشاء في السماء)</p>
             <p>
               空中でディナーを頂きましょう(？)
@@ -204,7 +204,7 @@ export function Nanocloudx({pageNumber}: Props) {
         <section>
           <TwoColumn>
             <div>
-              <h2>デザートサファリ</h2>
+              <h2>デザート サファリ</h2>
               <p style={{marginTop: '-0.8rem'}}>(Desert Safari, رحلات السفاري الصحراوية‎)</p>
               <p>
                 せっかく砂漠に来たのですから、砂漠でのアクティビティも愉しみましょうね。

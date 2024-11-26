@@ -26,7 +26,7 @@ const pageCount = {
   daichiro: 4,
   kinoppyd: 6,
   arushiro: 2,
-  kusano: 2,
+  kusano: 3,
   shodaiSato: 2,
   dera: 2,
   pokeba: 2,
