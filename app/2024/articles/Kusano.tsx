@@ -28,13 +28,13 @@ export function Kusano({pageNumber}: Props) {
           ここに2枚の画像があります。
           それぞれの画像を見ても何の情報も得られません。
         </p>
-        <Image height={'35mm'} src={'/2024/kusano/figure1.png'} />
+        <Image height={'35mm'} src={'/2024/kusano/figure1.png'}/>
         <p>
           この2枚の画像を、各画素についてどちらか一方でも黒い画素なら黒として重ねると、次のように「サメチン」の文字が浮かび上がります。
         </p>
-        <Image height={'35mm'} src={'/2024/kusano/figure2.png'} />
+        <Image height={'35mm'} src={'/2024/kusano/figure2.png'}/>
         <p>重ねる様子をYouTubeにアップロードしました。</p>
-        <Image height={'35mm'} src={'/2024/kusano/qr.png'} />
+        <Image height={'35mm'} src={'/2024/kusano/qr.png'}/>
       </Page>
       <Page pageNumber={pageNumber + 1}>
         <p>
@@ -59,7 +59,8 @@ export function Kusano({pageNumber}: Props) {
         <h2>k of n</h2>
         <p>
           2枚ではなく3枚の画像を用いることもできます。
-          さらに、3枚のうちどれか2枚を重ねるの（2 of 3）か、それとも2枚ではなく3枚全てを重ねて初めて絵が浮かび上がるのか（3 of 3）を制御することもできます。例を示します。
+          さらに、3枚のうちどれか2枚を重ねるの（2 of 3）か、それとも2枚ではなく3枚全てを重ねて初めて絵が浮かび上がるのか（3
+          of 3）を制御することもできます。例を示します。
         </p>
         <Image height={'50mm'} src={'/2024/kusano/figure4.png'}/>
       </Page>
@@ -75,7 +76,8 @@ export function Kusano({pageNumber}: Props) {
           3枚全てを重ね合わせると、区別ができるようになります。
         </p>
         <p>
-          これをそのまま画像全体に敷き詰めると、例えばShare 2の黒い画素の位置が異なるので、Share 2の1枚だけからオリジナルの画像が分かってしまいます。
+          これをそのまま画像全体に敷き詰めると、例えばShare 2の黒い画素の位置が異なるので、Share
+          2の1枚だけからオリジナルの画像が分かってしまいます。
           それぞれの組の中でランダムに並び替えることで、1枚の画像や、3 of 3の2枚の画像の組み合わせでは、情報が得られなくなります。
         </p>
         <h2>安全性</h2>
@@ -93,8 +95,10 @@ export function Kusano({pageNumber}: Props) {
           何か面白い使い方ができないかを考えてみるのも楽しいと思います。
         </p>
         <blockquote>
-          <b>参考文献</b><br />
-          Naor, Moni, and Adi Shamir. "Visual cryptography." Advances in Cryptology—EUROCRYPT'94: Workshop on the Theory and Application of Cryptographic Techniques Perugia, Italy, May 9–12, 1994 Proceedings 13. Springer Berlin Heidelberg, 1995.
+          <b>参考文献</b><br/>
+          Naor, Moni, and Adi Shamir. &quot;Visual cryptography.&quot; Advances in Cryptology&mdash;EUROCRYPT&#39;94: Workshop on the Theory
+          and Application of Cryptographic Techniques Perugia, Italy, May 9&ndash;12, 1994 Proceedings 13. Springer Berlin
+          Heidelberg, 1995.
         </blockquote>
       </Page>
     </div>

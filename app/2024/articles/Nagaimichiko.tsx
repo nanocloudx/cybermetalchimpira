@@ -38,7 +38,7 @@ export function Nagaimichiko({pageNumber}: Props) {
         </section>
       </Page>
       <Page pageNumber={pageNumber + 1}>
-      <section>
+        <section>
           <h3>君が初めて「ママ」と呼んでくれたとき。</h3>
           <p>君がずっと呼びかけてくれていた言葉が、ママと聞こえた日。明確な証拠はないけれど、きっとママと呼んでくれたんだろう。どんな単語よりも先に、はっきりと伝えてくれた言葉。君のすべての要望を叶えるための、魔法の言葉。覚えてくれて、語りかけてくれて、ありがとう。……もっとも、君の初めての言葉は「よいしょ」だった気がするけれど。</p>
         </section>

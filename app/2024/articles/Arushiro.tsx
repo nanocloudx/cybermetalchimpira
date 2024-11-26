@@ -33,7 +33,8 @@ export function Arushiro({pageNumber}: Props) {
       </Page>
       <Page pageNumber={pageNumber + 1}>
         <h2>Getting Over It with Bennett Foddy</h2>
-        <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/</p>
+        <p
+          style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/</p>
         <Image src={'/2024/arushiro/image6.jpg'} height={'50mm'} alt={'ジャンル: 2Dプラットフォーマー'}/>
         <p>日本では通称壺おじと呼ばれているこのゲームは登山ゲー(英語ではFoddian)というジャンルを作ったゲームです。非常に高難易度なことで知られていて、記事執筆時点でのSteam実績を見るとクリア率は9.1%となっています。</p>
         <p>主人公はハンマーを持ってなぜか壺に入っているおじさんで、プレイヤーはこのおじさんが持っているハンマーを操作して山を上へ上へと進んでいきます。ハンマーの操作はマウスのみです。マウスカーソルを回転させるとハンマーがおじさんを中心に回転し、おじさんに対してカーソルを中央、もしくは外方向に移動させるとハンマーが押し引きされます。</p>
@@ -63,12 +64,14 @@ export function Arushiro({pageNumber}: Props) {
           上の写真は右の足場から中央の塔の真ん中の穴にぴったり入らないといけないのですが、ここのジャンプ力の溜めの猶予フレームが60fpsで僅か2フレームしか存在していません。それ位シビアな調整を求められる場面があるゲームです。(私はこの場面をホールインワンと呼んでいます。)
           それでもプレイしている内に経験が魂に刻み込まれていき、段々これ位かな？とジャンプ力を調整できるようになっていくのが非常に楽しいゲームです。
         </p>
-        <p>実は壺おじ、Pogostuckをクリアしておきながらこの記事を執筆するまでJump Kingを未クリアのまま放置していたのですが、高難易度ゲームを語るのに三大登山ゲーを全てクリアしていないのはまずかろうということで急遽プレイして無事クリアすることができました。よかった。</p>
+        <p>実は壺おじ、Pogostuckをクリアしておきながらこの記事を執筆するまでJump
+          Kingを未クリアのまま放置していたのですが、高難易度ゲームを語るのに三大登山ゲーを全てクリアしていないのはまずかろうということで急遽プレイして無事クリアすることができました。よかった。</p>
         <p>クリアの達成感、解放感はすごかったので皆さんも是非プレイして達成感を味わってください。</p>
       </Page>
       <Page pageNumber={pageNumber + 3}>
         <h2>Pogostuck: Rage With Your Friends</h2>
-        <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/</p>
+        <p
+          style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/</p>
         <Image src={'/2024/arushiro/image8.jpg'} height={'50mm'}
                alt={'ジャンル: 2Dプラットフォーマー'}/>
         <p>Pogostuck、通称ポゴは壺おじやJump
@@ -82,7 +85,7 @@ export function Arushiro({pageNumber}: Props) {
         <p>積んだ経験によってミスをリカバリーできるようになるというのは思っている以上に楽しいので是非プレイしてじゃじゃ馬なホッピングを乗りこなしてみてください。</p>
         <p>
           ここまでに紹介した三大登山ゲーについて、speedrun.comに3ゲームを一度に行うメドレー競技のGod Gamer
-          Gauntletというカテゴリーが存在しています。<br /><i>https://www.speedrun.com/foddian?h=God_Gamer_Gauntlet</i>
+          Gauntletというカテゴリーが存在しています。<br/><i>https://www.speedrun.com/foddian?h=God_Gamer_Gauntlet</i>
         </p>
         <p>難しいゲームをスピーディーにクリアしていく狂人の姿が見られるので興味があればぜひ見てみてください。
           私もいつかそれぞれに習熟できたら挑戦してみたいですね。

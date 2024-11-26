@@ -135,18 +135,18 @@ export function Nanocloudx({pageNumber}: Props) {
           </TwoColumn>
         </section>
         <section>
-        <TwoColumn>
-          <div>
-            <h2>ドバイ・ファウンテン</h2>
-            <p style={{marginTop: '-0.8rem'}}>(Dubai Fountain, نافورة دبي)</p>
-            <p>
-              これもドバイ・モール隣接ですの。
-              世界最大の噴水ショーで、長さ275m、高さ最大150mの大迫力を無料で鑑賞できますわ！
-              夕方18時頃から30分毎に行われるので、ショッピングの合間に見るのがおすすめですの。
-              それにしてもEMAAR(中東最大の不動産会社)の主張強すぎません？
-            </p>
-          </div>
-          <Image height={'50mm'} src={'/2024/nanocloudx/08.jpg'} alt={'写真じゃ伝わらない迫力'}/>
+          <TwoColumn>
+            <div>
+              <h2>ドバイ・ファウンテン</h2>
+              <p style={{marginTop: '-0.8rem'}}>(Dubai Fountain, نافورة دبي)</p>
+              <p>
+                これもドバイ・モール隣接ですの。
+                世界最大の噴水ショーで、長さ275m、高さ最大150mの大迫力を無料で鑑賞できますわ！
+                夕方18時頃から30分毎に行われるので、ショッピングの合間に見るのがおすすめですの。
+                それにしてもEMAAR(中東最大の不動産会社)の主張強すぎません？
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/08.jpg'} alt={'写真じゃ伝わらない迫力'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
             あまりに広すぎて、これではドバイ・モールだけで旅が終わってしまうわね。
@@ -183,17 +183,17 @@ export function Nanocloudx({pageNumber}: Props) {
           </TwoColumn>
         </section>
         <section>
-        <TwoColumn>
-          <div>
-            <h2>ディナー インザ スカイ</h2>
-            <p style={{marginTop: '-0.8rem'}}>(Dinner in The Sky, عشاء في السماء)</p>
-            <p>
-              空中でディナーを頂きましょう(？)
-              クレーンで地上50mまで上昇、宙ぶらりんの状態で、シェフ自慢の極上料理をご堪能。
-              なかなか美味でしたけれども、なんで浮いてるんですかねぇ。。。どうやらこれは世界各地で行われているらしいですわ。
-            </p>
-          </div>
-          <Image height={'50mm'} src={'/2024/nanocloudx/11.jpg'} alt={'どういうことやねん'}/>
+          <TwoColumn>
+            <div>
+              <h2>ディナー インザ スカイ</h2>
+              <p style={{marginTop: '-0.8rem'}}>(Dinner in The Sky, عشاء في السماء)</p>
+              <p>
+                空中でディナーを頂きましょう(？)
+                クレーンで地上50mまで上昇、宙ぶらりんの状態で、シェフ自慢の極上料理をご堪能。
+                なかなか美味でしたけれども、なんで浮いてるんですかねぇ。。。どうやらこれは世界各地で行われているらしいですわ。
+              </p>
+            </div>
+            <Image height={'50mm'} src={'/2024/nanocloudx/11.jpg'} alt={'どういうことやねん'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
             なんだか登ってばかりですわね。都市部だけでなく砂漠にも行ってみましょ。
@@ -266,7 +266,8 @@ export function Nanocloudx({pageNumber}: Props) {
               食べ物も美味しくて良い旅でしたの。世界の広さを感じることができましたわ！<br/>
               あなたもドバイでお紅茶片手に石油王を目指してみませんか？
             </p>
-            <Image height={'90mm'} src={'/2024/nanocloudx/18.jpg'} alt={'ブルジュ・ハリファの展望台「At The Top」より愛を込めて'}/>
+            <Image height={'90mm'} src={'/2024/nanocloudx/18.jpg'}
+                   alt={'ブルジュ・ハリファの展望台「At The Top」より愛を込めて'}/>
           </div>
         </section>
       </Page>
