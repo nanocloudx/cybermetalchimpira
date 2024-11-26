@@ -81,7 +81,7 @@ export function Nanocloudx({pageNumber}: Props) {
           <h2>だめでした...</h2>
           <p>
             まぁ素手でサクッと掘れないことぐらいはわかってましたわよ。
-            ってか仮に見つけたとしても観光客にはどうすることもできませんわよ（それはそう）
+            ってか仮に見つけたとしても観光客にはどうすることもできませんわ（それはそう）
           </p>
           <p>
             そもそもドバイのGDPに占める石油産業の割合は1-2%程度。
@@ -97,7 +97,7 @@ export function Nanocloudx({pageNumber}: Props) {
           <h2>ブルジュ・ハリファ</h2>
           <p style={{marginTop: '-0.8rem'}}>(Burj Khalīfa, بُرْج خَلِيفَة)</p>
           <p>
-            世界最大の建物であるブルジュ・ハリファ。おそらくドバイで最も有名な建物といえばこれ。
+            世界最大の建物であるブルジュ・ハリファ(バージュ・カリファ)。おそらくドバイで最も有名な建物といえばこれ。
             地上高829.8mはどこから見ても圧倒的な存在感。
           </p>
           <p>建物は夏季に吹き付ける熱波に耐えるため、特徴的な形をしていたり様々な建築技術が集まっているのも魅力。建築好きには堪りませんわ！</p>
@@ -149,7 +149,7 @@ export function Nanocloudx({pageNumber}: Props) {
           <Image height={'50mm'} src={'/2024/nanocloudx/08.jpg'} alt={'写真じゃ伝わらない迫力'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
-            あまりに広すぎて、これではドバイ・モールだけで旅が終わってしまうわね。<br />違うところにも行ってみましょう。
+            あまりに広すぎて、これではドバイ・モールだけで旅が終わってしまうわね。
           </p>
         </section>
       </Page>
@@ -237,10 +237,13 @@ export function Nanocloudx({pageNumber}: Props) {
               <p>
                 エクストリームな体験ばかりで疲れちゃいますので、落ち着いた場所にも行きましょうね。
               </p>
-              <p>海岸沿いに並ぶドバイの伝統的な町並みを体験できますの。潮風が心地よいですわ〜。</p>
+              <p>海岸沿いに並ぶドバイの伝統的な町並みを体験できますの。本当に絨毯売ってるのね。潮風が心地よいですわ〜。</p>
             </div>
             <Image height={'50mm'} src={'/2024/nanocloudx/14.jpg'} alt={'アラジンの世界みたい'}/>
           </TwoColumn>
+          <p style={{textAlign: 'center'}}>
+            12月でも若干暑いぐらいでしたので、夏は相当大変そうですわね。
+          </p>
         </section>
       </Page>
       <Page pageNumber={pageNumber + 6}>
@@ -248,7 +251,7 @@ export function Nanocloudx({pageNumber}: Props) {
           <div>
             <h2>不思議な建造物</h2>
             <p>
-              移動中にも不思議な建造物がたくさんありましたわ。景色も楽しくて素敵ですわね。
+              移動中にも不思議な建造物がたくさんありましたわ。景色も楽しくて素敵ですわ〜。
             </p>
           </div>
           <TwoColumn>
@@ -260,10 +263,10 @@ export function Nanocloudx({pageNumber}: Props) {
           <div>
             <h2>ドバイはいいぞ</h2>
             <p>
-              食べ物も美味しくて良い旅でしたわ。世界の広さを感じることができましたわ〜。<br/>
-              あなたもサクッとドバイで石油王を目指してみません？
+              食べ物も美味しくて良い旅でしたの。世界の広さを感じることができましたわ！<br/>
+              あなたもドバイでお紅茶片手に石油王を目指してみませんか？
             </p>
-            <Image height={'90mm'} src={'/2024/nanocloudx/18.jpg'} alt={'ブルジュ・ハリファの展望台「At The Top」より'}/>
+            <Image height={'90mm'} src={'/2024/nanocloudx/18.jpg'} alt={'ブルジュ・ハリファの展望台「At The Top」より愛を込めて'}/>
           </div>
         </section>
       </Page>
