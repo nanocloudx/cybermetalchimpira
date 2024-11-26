@@ -12,7 +12,7 @@ export function Nagaimichiko({pageNumber}: Props) {
       <Page pageNumber={pageNumber}>
         <Title
           title={'662日目のラブレター'}
-          description={'子どもへの愛を叫ぶ'}
+          description={'君に伝えておきたいことがあるんだ'}
           name={'ながいたん'}
           image={'/2024/authors/nagaimichiko.jpeg'}
         />
