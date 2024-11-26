@@ -14,6 +14,8 @@ export function Quisty({pageNumber}: Props) {
           description={'転職面接などで体験した事から働くという事を考える何か'}
           name={'きすちぃ'}
           image={'/2024/authors/quisty.png'}
+          linkX={'Quisty'}
+          linkWeb={'lit.link/Quisty'}
         />
         <h2>面接、転職の「異変」たち</h2>
         <section>
