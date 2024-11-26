@@ -101,7 +101,20 @@
     li ul {
       list-style-type: circle;
       margin-left: 1.5rem;
+      margin-bottom: 0;
       font-size: 0.75rem;
+    }
+  }
+
+  dl {
+    dt {
+      font-size: 0.8rem;
+      font-weight: bold;
+      margin-bottom: 0.1rem;
+    }
+    dd {
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
     }
   }
 }
