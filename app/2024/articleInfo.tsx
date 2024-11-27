@@ -12,11 +12,11 @@ import {ShodaiSato} from '@/app/2024/articles/ShodaiSato'
 import {Dera} from '@/app/2024/articles/Dera'
 import {Nag4} from '@/app/2024/articles/Nag4'
 import {Nagaimichiko} from '@/app/2024/articles/Nagaimichiko'
-import {Mokuji} from '@/app/2024/Mokuji'
-import {Prologue} from '@/app/2024/Prologue'
-import {Atogaki} from '@/app/2024/Atogaki'
-import {Omake} from '@/app/2024/Omake'
-import {Okuduke} from '@/app/2024/Okuduke'
+import {Mokuji} from '@/app/2024/articles/Mokuji'
+import {Prologue} from '@/app/2024/articles/Prologue'
+import {Atogaki} from '@/app/2024/articles/Atogaki'
+import {Omake} from '@/app/2024/articles/Omake'
+import {Okuduke} from '@/app/2024/articles/Okuduke'
 
 type ArticleId =
   'mokuji' | 'prologue' | 'atogaki' | 'omake' | 'okuduke' |
@@ -54,7 +54,7 @@ export function getArticleInfo(id: ArticleId) {
 export const articleInfoList: ArticleInfo[] = [
   {
     id: 'mokuji',
-    component: <Mokuji />,
+    component: <Mokuji/>,
     totalPage: 1,
     title: '目次',
     description: '',
@@ -64,7 +64,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'prologue',
-    component: <Prologue />,
+    component: <Prologue/>,
     totalPage: 2,
     title: 'プロローグ',
     description: '',
@@ -74,7 +74,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'daichiro',
-    component: <Daichiro />,
+    component: <Daichiro/>,
     totalPage: 4,
     title: '未定',
     description: '未定',
@@ -84,7 +84,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'sashimi',
-    component: <Sashimi />,
+    component: <Sashimi/>,
     totalPage: 2,
     title: '未定',
     description: '未定',
@@ -94,7 +94,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'nanocloudx',
-    component: <Nanocloudx />,
+    component: <Nanocloudx/>,
     totalPage: 7,
     title: 'ドバイで石油王になろう',
     description: '5000兆円欲しいのでUAEに行ってきたわよ！',
@@ -106,7 +106,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'fuyutsubaki',
-    component: <Fuyutsubaki />,
+    component: <Fuyutsubaki/>,
     totalPage: 2,
     title: '未定',
     description: '未定',
@@ -116,7 +116,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'arushiro',
-    component: <Arushiro />,
+    component: <Arushiro/>,
     totalPage: 9,
     title: '達成感中毒患者と難しいゲーム達',
     description: '壺おじなどの登山ゲーやその他難しいゲームについて',
@@ -126,7 +126,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'kinoppyd',
-    component: <Kinoppyd />,
+    component: <Kinoppyd/>,
     totalPage: 6,
     title: 'ワインの味とは何なのか',
     description: 'ワインの香りを嗅いで銘柄当てるとかあれフィクションだから',
@@ -136,7 +136,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'kusano',
-    component: <Kusano />,
+    component: <Kusano/>,
     totalPage: 3,
     title: '視覚暗号',
     description: 'サイバー空間で使われているものとはちょっと違った面白い暗号の紹介',
@@ -147,7 +147,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'pokeba',
-    component: <Pokeba />,
+    component: <Pokeba/>,
     totalPage: 5,
     title: 'リファレンスチェックに想いを馳せる',
     description: '推薦者視点での備忘録',
@@ -157,7 +157,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'quisty',
-    component: <Quisty />,
+    component: <Quisty/>,
     totalPage: 5,
     title: '異変を見つけたら、すぐに引き返すこと。',
     description: '転職面接などで体験した事から働くという事を考える何か',
@@ -169,7 +169,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'shiratamaIori',
-    component: <ShiratamaIori />,
+    component: <ShiratamaIori/>,
     totalPage: 2,
     title: 'メイド喫茶店員がガールズバーに転生してみた',
     description: 'これが本当の異世界転生',
@@ -179,7 +179,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'shodaiSato',
-    component: <ShodaiSato />,
+    component: <ShodaiSato/>,
     totalPage: 3,
     title: '愛と金',
     description: 'あるいは信頼と信用',
@@ -189,7 +189,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'dera',
-    component: <Dera />,
+    component: <Dera/>,
     totalPage: 2,
     title: 'メンズコーチチンピラDの弱男育成記録',
     description: '世の弱男どもを一端の男にするありがてぇ話をしてやるよ',
@@ -199,7 +199,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'nag4',
-    component: <Nag4 />,
+    component: <Nag4/>,
     totalPage: 5,
     title: '死ぬ日を自分で決める「自寿死」という考え',
     description: '寿命を自分で決めれば、人生の質を上げられるという話',
@@ -209,7 +209,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'nagaimichiko',
-    component: <Nagaimichiko />,
+    component: <Nagaimichiko/>,
     totalPage: 2,
     title: '662日目のラブレター',
     description: '君に伝えておきたいことがあるんだ',
@@ -219,7 +219,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'atogaki',
-    component: <Atogaki />,
+    component: <Atogaki/>,
     totalPage: 1,
     title: 'あとがき',
     description: '',
@@ -229,7 +229,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'omake',
-    component: <Omake />,
+    component: <Omake/>,
     totalPage: 1,
     title: 'おまけ',
     description: '',
@@ -239,7 +239,7 @@ export const articleInfoList: ArticleInfo[] = [
   },
   {
     id: 'okuduke',
-    component: <Okuduke />,
+    component: <Okuduke/>,
     totalPage: 0,
     title: '奥付',
     description: '',

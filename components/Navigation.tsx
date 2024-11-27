@@ -9,7 +9,7 @@ type Props = {
 export function Navigation({children, year}: PropsWithChildren<Props>) {
   return (
     <div className={style.main}>
-      <p className={style.heading}>サイバーメタルチンピラ<br />Viewer</p>
+      <p className={style.heading}>サイバーメタルチンピラ<br/>Viewer</p>
       <h2 style={{textAlign: 'center'}}>{year}</h2>
       <ul>
         {children}
