@@ -11,7 +11,7 @@ export function Nagaimichiko() {
     <div id={info.id}>
       <Page pageNumber={startPage}>
         <Title articleInfo={info}/>
-        <section>
+        <section style={{marginTop: '3rem'}}>
           <h3>君に初めて会ったとき。</h3>
           <p>賢い子だな、と思った。そして、生命力にあふれている子だと思った。疲労困憊で朦朧としている私を心配して、おとなしく側に佇んでくれる、優しい子。お見舞いに来た先生には自分から挨拶をしてくれる、気遣いのできる子。出会ってから時が経った今でも変わらない、君の素敵なところ。</p>
         </section>

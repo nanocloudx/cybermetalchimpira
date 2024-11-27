@@ -176,6 +176,7 @@ export const articleInfoList: ArticleInfo[] = [
     atogaki: '未定',
     authorName: '白玉いおり',
     authorImage: '/2024/authors/shiratamaIori.jpg',
+    authorLinkX: 'iori_nnnn',
   },
   {
     id: 'shodaiSato',
