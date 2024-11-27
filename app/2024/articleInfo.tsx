@@ -138,9 +138,9 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'fuyutsubaki',
     component: <Fuyutsubaki/>,
-    totalPage: 2,
-    title: '未定',
-    description: '未定',
+    totalPage: 4,
+    title: 'JEFF MILLSになりたい。909を操りたい。1週間で',
+    description: 'TR-909(クローン)で遊ぶぞ！！！',
     atogaki: '未定',
     authorName: '冬椿',
     authorImage: '/2024/authors/fuyutsubaki.png',
