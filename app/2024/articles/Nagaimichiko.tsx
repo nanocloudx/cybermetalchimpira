@@ -39,8 +39,8 @@ export function Nagaimichiko() {
         </section>
         <section>
           <p>いまだに実感がない気もするけれど、君が私を母にしてくれました。なんで君はこんなにも日々私を愛してくれるのだろうと不思議で仕方がないけれども、君の信頼と愛情を裏切らない自分でありたいと思うのです。</p>
-          <Image height={'155mm'} src={'/2024/nagaimichiko/image1.jpg'}
-                 alt={'君の瞳に映る私が、いつも笑顔でありますように。'}/>
+          <p>君の瞳に映る私が、いつも笑顔でありますように。</p>
+          <Image height={'155mm'} src={'/2024/nagaimichiko/image1.jpg'}/>
         </section>
       </Page>
     </div>
