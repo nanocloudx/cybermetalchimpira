@@ -1,22 +1,23 @@
 import {Page} from '@/components/Page'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Daichiro() {
 
-export function Daichiro({pageNumber}: Props) {
+  const info = getArticleInfo('daichiro')
+  const startPage = getStartPage(info.id)
+
   return (
-    <div id={'daichiro'}>
-      <Page pageNumber={pageNumber}>
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
         TODO だいちろ画像貼り付け
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         TODO だいちろ画像貼り付け
       </Page>
-      <Page pageNumber={pageNumber + 2}>
+      <Page pageNumber={startPage + 2}>
         TODO だいちろ画像貼り付け
       </Page>
-      <Page pageNumber={pageNumber + 3}>
+      <Page pageNumber={startPage + 3}>
         TODO だいちろ画像貼り付け
       </Page>
     </div>

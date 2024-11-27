@@ -1,21 +1,16 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {Image} from '@/components/Image'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Nagaimichiko() {
+  const info = getArticleInfo('nagaimichiko')
+  const startPage = getStartPage(info.id)
 
-export function Nagaimichiko({pageNumber}: Props) {
   return (
-    <div id={'nagaimichiko'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'662日目のラブレター'}
-          description={'君に伝えておきたいことがあるんだ'}
-          name={'ながいたん'}
-          image={'/2024/authors/nagaimichiko.jpeg'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <section>
           <h3>君に初めて会ったとき。</h3>
           <p>賢い子だな、と思った。そして、生命力にあふれている子だと思った。疲労困憊で朦朧としている私を心配して、おとなしく側に佇んでくれる、優しい子。お見舞いに来た先生には自分から挨拶をしてくれる、気遣いのできる子。出会ってから時が経った今でも変わらない、君の素敵なところ。</p>
@@ -37,7 +32,7 @@ export function Nagaimichiko({pageNumber}: Props) {
           <p>まだ上手に歩けない君が、当たり前のように私の手を取って、寝室からリビングまで移動した。私が君を支えること、その手を決してふりほどかないということを決して疑わない、絶対的な信頼感。あたたかくて小さな手に、尊敬の念すら覚えた。</p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <section>
           <h3>君が初めて「ママ」と呼んでくれたとき。</h3>
           <p>君がずっと呼びかけてくれていた言葉が、ママと聞こえた日。明確な証拠はないけれど、きっとママと呼んでくれたんだろう。どんな単語よりも先に、はっきりと伝えてくれた言葉。君のすべての要望を叶えるための、魔法の言葉。覚えてくれて、語りかけてくれて、ありがとう。……もっとも、君の初めての言葉は「よいしょ」だった気がするけれど。</p>

@@ -1,23 +1,16 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {Image} from '@/components/Image'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function ShiratamaIori() {
+  const info = getArticleInfo('shiratamaIori')
+  const startPage = getStartPage(info.id)
 
-export function ShiratamaIori({pageNumber}: Props) {
   return (
-    <div id={'shiratamaIori'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'メイド喫茶店員がガールズバーに転生してみた'}
-          description={'これが本当の異世界転生'}
-          name={'白玉いおり'}
-          image={'/2024/authors/shiratamaIori.jpg'}
-          titleFontSize={'1.53rem'}
-          linkX={'iori_nnnn'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <section>
           <p>
             17才の頃から秋葉原のメイド喫茶で初お給仕から早や10年…
@@ -61,7 +54,7 @@ export function ShiratamaIori({pageNumber}: Props) {
           </p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <section>
           <p>…130センチの水着？
             それって大人用じゃないよね？と聞いたらオークションサイトで売られている使用済みしか買わないと胸を張っていた。</p>

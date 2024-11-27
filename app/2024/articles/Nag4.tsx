@@ -1,23 +1,16 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {Image} from '@/components/Image'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Nag4() {
+  const info = getArticleInfo('nag4')
+  const startPage = getStartPage(info.id)
 
-export function Nag4({pageNumber}: Props) {
   return (
-    <div id={'nag4'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'死ぬ日を自分で決める「自寿死」という考え'}
-          description={'寿命を自分で決めれば、人生の質を上げられるという話'}
-          name={'nag4'}
-          image={'/2024/authors/nag4.png'}
-          titleFontSize={'1.61rem'}
-          linkX={'nag4'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <section>
           <h2>まえがき</h2>
           <p>
@@ -46,7 +39,7 @@ export function Nag4({pageNumber}: Props) {
           <p>日本人の時代別の平均寿命は、「江戸時代の平均寿命は32～44歳、安土桃山時代は30代、室町時代は15歳前後、鎌倉時代が24歳、平安時代は30歳、飛鳥・奈良時代が28～33歳、古墳・弥生時代が10～20代、そして縄文・旧石器時代が15歳前後(※)」とのことです。</p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <section>
           <p>
             81歳まである現代の平均寿命と大きく違いますが、これは「天寿を全うできなかった死因」がたくさんあったのも原因でしょう(
@@ -70,7 +63,7 @@ export function Nag4({pageNumber}: Props) {
           </p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 2}>
+      <Page pageNumber={startPage + 2}>
         <section>
           <h2>死の恐怖を超えた現代社会は「生き続ける恐怖」に直面している</h2>
           <p>ほとんどの人が天寿を全うして死ぬようになり、その結果として高齢化社会になりました。高齢化社会という社会問題も考えたいのですが、本稿の範囲は社会全体まで広げず、自分自身に絞ります。</p>
@@ -89,7 +82,7 @@ export function Nag4({pageNumber}: Props) {
           <p>老後の資産形成は、老後の無収入な時間の長さのために行います。そして老後の無収入な時間は、現代ではみんな長いことが分かっています。そのため老後の資産形成の額が大きくなり、若いときの人生を蝕むのです。</p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 3}>
+      <Page pageNumber={startPage + 3}>
         <section>
           <p>ではどうするのか。私は「自分の死ぬ日を決める」のが良いと考えています。</p>
           <p>死ぬ日を決めて、老後の無収入な時間を確定させれば、老後の資産形成の金額が定まり、若いときに不必要な節制をせずに済みます。若いときに得た収入額に応じて遊ぶことができ、QoLを上げることができるでしょう。人生の長さを決めれば、人生計画の精度を上げたうえで安心して出費できるのです。</p>
@@ -113,7 +106,7 @@ export function Nag4({pageNumber}: Props) {
           <p>要は、社会保障費としてカネが絞り上げられるので現役世代の人生の質が低く、その主因は老人の寿命が長いことであり、老人としても無用な延命はつらいので、自寿死を制度としても文化としても定着させられれば、若者も老人も幸せであろうと考えています。</p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 4}>
+      <Page pageNumber={startPage + 4}>
         <section>
           <h2>あとがき</h2>
           <p>私の自寿は75歳としています。</p>

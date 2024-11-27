@@ -1,34 +1,30 @@
 import style from './Title.module.scss'
 import {AtSignIcon, MonitorSmartphoneIcon,} from 'lucide-react'
+import {ArticleInfo} from '@/app/2024/articleInfo'
 
 type Props = {
-  title: string
-  description: string
-  name: string
-  image: string
-  linkX?: string
-  linkWeb?: string
+  articleInfo: ArticleInfo
   titleFontSize?: string
 }
 
-export function Title(props: Props) {
+export function Title({articleInfo, titleFontSize}: Props) {
   return (
     <div className={style.main}>
-      <h1 className={style.title} style={props.titleFontSize ? {fontSize: props.titleFontSize} : {}}>{props.title}</h1>
-      <p className={style.description}>{props.description}</p>
+      <h1 className={style.title} style={titleFontSize ? {fontSize: titleFontSize} : {}}>{articleInfo.title}</h1>
+      <p className={style.description}>{articleInfo.description}</p>
       <div className={style.info}>
-        <img className={style.image} src={props.image}/>
-        <p className={style.name}>{props.name}</p>
-        {props.linkX && (
+        <img className={style.image} src={articleInfo.authorImage}/>
+        <p className={style.name}>{articleInfo.authorName}</p>
+        {articleInfo.authorLinkX && (
           <>
             <AtSignIcon size={18} style={{marginRight: '0.1rem'}}/>
-            <p className={style.linkX}>{props.linkX}</p>
+            <p className={style.linkX}>{articleInfo.authorLinkX}</p>
           </>
         )}
-        {props.linkWeb && (
+        {articleInfo.authorLinkWeb && (
           <>
             <MonitorSmartphoneIcon size={18} style={{marginRight: '0.1rem'}}/>
-            <p className={style.linkWeb}>{props.linkWeb}</p>
+            <p className={style.linkWeb}>{articleInfo.authorLinkWeb}</p>
           </>
         )}
       </div>

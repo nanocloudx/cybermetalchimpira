@@ -1,21 +1,17 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {Image} from '@/components/Image'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Arushiro() {
 
-export function Arushiro({pageNumber}: Props) {
+  const info = getArticleInfo('arushiro')
+  const startPage = getStartPage(info.id)
+
   return (
-    <div id={'arushiro'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'達成感中毒患者と難しいゲーム達'}
-          description={'壺おじなどの登山ゲーやその他難しいゲームについて'}
-          name={'あるしろ'}
-          image={'/2024/authors/arushiro.png'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <p>初めまして。こちらに寄稿するのは初めてとなります、あるしろと申します。</p>
         <p>私は何かに挑戦して達成感を得ることが中毒と言えるほどに非常に好きで、韓国語などの語学学習、ヨーヨーやジャグリングの技の習得、トランプ52枚の順番を全て覚えきるトランプ記憶など、日々様々な物事に挑戦しています。</p>
         <p>今回紹介する難しいゲームたちもその一環として挑戦したものです。この記事では以下の7つのゲームについて紹介します。</p>
@@ -31,7 +27,7 @@ export function Arushiro({pageNumber}: Props) {
         <p>前3つのゲームは登山ゲー(英語ではFoddian)と呼ばれるジャンルのゲームです。登山ゲーとは何かはGetting Over
           Itの紹介で解説します。この記事を読んでこれらの難しいゲームをプレイして達成感を味わってもらえたら幸いです。</p>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <h2>Getting Over It with Bennett Foddy</h2>
         <p
           style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/</p>
@@ -44,7 +40,7 @@ export function Arushiro({pageNumber}: Props) {
           Foddyと一緒に(with)と書かれているように、道中で何故このゲームを作ったのか？何を考えてゲームをデザインしたのか？ストアページに書かれている「特定の人に向けて、誕生した、ゲーム。特定の人を、傷つけるために。」の特定の人とは誰か？などの様々な問いについて作者がボイス付きで答えていきます。このゲームのボイスを煽り要素として捉えてしまう人がよくいますが、私はなるべくボイスはオンにしてプレイをしてもらいたいと思っています。</p>
         <p>このゲームは登山ゲーというジャンルを開拓した作品です。登山ゲーは「運要素がない」「失敗したら大幅なやり直しを求められる」「反復練習で上達できいずれクリアすることができる」ゲームであると私は考えています。運要素がないので真剣に己と向き合うことができ、やり直しの辛さに耐え反復練習をした先のクリアに達成感という価値が存在すると思います。是非みなさんにも作者の思想を感じながら達成感に向けてプレイをしていただきたいです。</p>
       </Page>
-      <Page pageNumber={pageNumber + 2}>
+      <Page pageNumber={startPage + 2}>
         <h2>Jump King</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/1061090/Jump_King/</p>
         <Image src={'/2024/arushiro/image4.jpg'} height={'50mm'}
@@ -68,7 +64,7 @@ export function Arushiro({pageNumber}: Props) {
           Kingを未クリアのまま放置していたのですが、高難易度ゲームを語るのに三大登山ゲーを全てクリアしていないのはまずかろうということで急遽プレイして無事クリアすることができました。よかった。</p>
         <p>クリアの達成感、解放感はすごかったので皆さんも是非プレイして達成感を味わってください。</p>
       </Page>
-      <Page pageNumber={pageNumber + 3}>
+      <Page pageNumber={startPage + 3}>
         <h2>Pogostuck: Rage With Your Friends</h2>
         <p
           style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/</p>
@@ -91,7 +87,7 @@ export function Arushiro({pageNumber}: Props) {
           私もいつかそれぞれに習熟できたら挑戦してみたいですね。
         </p>
       </Page>
-      <Page pageNumber={pageNumber + 4}>
+      <Page pageNumber={startPage + 4}>
         <h2>Celeste</h2>
         <p
           style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/504230/Celeste/</p>
@@ -110,7 +106,7 @@ export function Arushiro({pageNumber}: Props) {
         <p>全ステージはクリアしましたが、全てのノーデスクリアは達成していないのでいつか達成できる日がくるといいな......と思っています。</p>
         <p></p>
       </Page>
-      <Page pageNumber={pageNumber + 5}>
+      <Page pageNumber={startPage + 5}>
         <h2>Noita</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/881100/Noita/</p>
         <Image src={'/2024/arushiro/image1.jpg'} height={'50mm'}
@@ -126,7 +122,7 @@ export function Arushiro({pageNumber}: Props) {
         <p>Noitaもまた様々な死に方をして経験を積み、その経験で死因を回避してクリアに辿り着く、反復試行が重要なゲームと言えると思います。</p>
         <p>高難易度なゲームで反復練習をして達成感を得たい人には他のゲームと同じくとてもおすすめです。</p>
       </Page>
-      <Page pageNumber={pageNumber + 6}>
+      <Page pageNumber={startPage + 6}>
         <h2>Slay the Spire</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/646570/Slay_the_Spire/</p>
         <Image src={'/2024/arushiro/image2.jpg'} height={'50mm'}
@@ -141,7 +137,7 @@ export function Arushiro({pageNumber}: Props) {
         <p>プレイしたての頃は弱いカードだと思っていたけれど、アセンションを登ると実は強いカードだったなんて発見を繰り返して知識をつけていき、運を実力でカバーしてクリアを勝ち取るのは達成感が非常に満たされます。</p>
         <p>カードゲームが好きな方は是非プレイしてみてください。</p>
       </Page>
-      <Page pageNumber={pageNumber + 7}>
+      <Page pageNumber={startPage + 7}>
         <h2>TUNIC</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/553420/TUNIC/</p>
         <Image src={'/2024/arushiro/image3.jpg'} height={'50mm'} alt={'ジャンル: 見下ろし型アクションゲーム'}/>
@@ -154,7 +150,7 @@ export function Arushiro({pageNumber}: Props) {
         <p>私はこういった解読が好きで、ゲームを始めてから表示されるほとんどの文字をノートに記述していき、どのような法則があるか？といったことを考察して結果解読に至りました。</p>
         <p>言語解読が好きな人は是非プレイしてみてください。</p>
       </Page>
-      <Page pageNumber={pageNumber + 8}>
+      <Page pageNumber={startPage + 8}>
         <h2>おわりに</h2>
         <p>
           ただのゲームレビューにここまでお付き合いくださりありがとうございました。

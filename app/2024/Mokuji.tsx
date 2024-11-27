@@ -1,13 +1,12 @@
 import {Page} from '@/components/Page'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
-
-export function Mokuji({pageNumber}: Props) {
+export function Mokuji() {
+  const info = getArticleInfo('mokuji')
+  const startPage = getStartPage(info.id)
   return (
-    <div id={'mokuji'}>
-      <Page pageNumber={pageNumber}>
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
         <p>*** TODO もくじ ***</p>
       </Page>
     </div>

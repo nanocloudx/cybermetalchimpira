@@ -1,23 +1,18 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Dera() {
+  const info = getArticleInfo('dera')
+  const startPage = getStartPage(info.id)
 
-export function Dera({pageNumber}: Props) {
   return (
-    <div id={'dera'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'メンズコーチチンピラDの弱男育成記録'}
-          description={'世の弱男どもを一端の男にするありがてぇ話をしてやるよ'}
-          name={'チンピラD'}
-          image={'/2024/authors/dera.png'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <p>It works!</p>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <p>It works!</p>
       </Page>
     </div>

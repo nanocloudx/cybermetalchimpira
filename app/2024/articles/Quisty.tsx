@@ -1,22 +1,15 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Quisty() {
+  const info = getArticleInfo('quisty')
+  const startPage = getStartPage(info.id)
 
-export function Quisty({pageNumber}: Props) {
   return (
-    <div id={'quisty'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'異変を見つけたら、すぐに引き返すこと。'}
-          description={'転職面接などで体験した事から働くという事を考える何か'}
-          name={'きすちぃ'}
-          image={'/2024/authors/quisty.png'}
-          linkX={'Quisty'}
-          linkWeb={'lit.link/Quisty'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <h2>面接、転職の「異変」たち</h2>
         <section>
           <h3>「ボーナスはねー、多分契約（社員）でも年1回は出るんじゃない？」</h3>
@@ -73,7 +66,7 @@ export function Quisty({pageNumber}: Props) {
           </dl>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <section>
           <dl>
             <dt>【起きた事】</dt>
@@ -139,7 +132,7 @@ export function Quisty({pageNumber}: Props) {
           </dl>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 2}>
+      <Page pageNumber={startPage + 2}>
         <section>
           <dl>
             <dt>【個人的感想】</dt>
@@ -203,7 +196,7 @@ export function Quisty({pageNumber}: Props) {
           </dl>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 3}>
+      <Page pageNumber={startPage + 3}>
         <section>
           <dl>
             <dt>【起きた事】</dt>
@@ -259,7 +252,7 @@ export function Quisty({pageNumber}: Props) {
           </dl>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 4}>
+      <Page pageNumber={startPage + 4}>
         <section>
           <dl>
             <dt>【個人的感想】</dt>

@@ -1,13 +1,12 @@
 import {Page} from '@/components/Page'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
-
-export function Omake({pageNumber}: Props) {
+export function Omake() {
+  const info = getArticleInfo('omake')
+  const startPage = getStartPage(info.id)
   return (
-    <div id={'omake'}>
-      <Page pageNumber={pageNumber}>
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
         <p>*** TODO おまけ ***</p>
       </Page>
     </div>

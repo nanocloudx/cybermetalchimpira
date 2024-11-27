@@ -1,23 +1,18 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Fuyutsubaki() {
+  const info = getArticleInfo('fuyutsubaki')
+  const startPage = getStartPage(info.id)
 
-export function Fuyutsubaki({pageNumber}: Props) {
   return (
-    <div id={'fuyutsubaki'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'909ライブパフォーマンス(仮)'}
-          description={'***TODO 未指定***'}
-          name={'冬椿'}
-          image={'/2024/authors/fuyutsubaki.png'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <p>It works!</p>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <p>It works!</p>
       </Page>
     </div>

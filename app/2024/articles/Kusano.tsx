@@ -1,22 +1,16 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {Image} from '@/components/Image'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Kusano() {
+  const info = getArticleInfo('kusano')
+  const startPage = getStartPage(info.id)
 
-export function Kusano({pageNumber}: Props) {
   return (
-    <div id={'kusano'}>
-      <Page pageNumber={pageNumber}>
-        <Title
-          title={'視覚暗号'}
-          description={'サイバー空間で使われているものとはちょっと違った面白い暗号の紹介'}
-          name={'kusano_k'}
-          image={'/2024/authors/kusano.png'}
-          linkX={'kusano_k'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <p>「サイバーメタルチンピラ」の「サイバー」要素として、とある暗号を紹介します。</p>
         <p>
           <b>「お、なんか難しそうだな。次の章に行くか」</b>と飛ばそうとした方、ちょっと待ってください。
@@ -36,7 +30,7 @@ export function Kusano({pageNumber}: Props) {
         <p>重ねる様子をYouTubeにアップロードしました。</p>
         <Image height={'35mm'} src={'/2024/kusano/qr.png'}/>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <p>
           これが「視覚暗号」（Visual Cryptography）という暗号です。
         </p>
@@ -64,7 +58,7 @@ export function Kusano({pageNumber}: Props) {
         </p>
         <Image height={'50mm'} src={'/2024/kusano/figure4.png'}/>
       </Page>
-      <Page pageNumber={pageNumber + 2}>
+      <Page pageNumber={startPage + 2}>
         <p>
           左側の2組は、3枚のうちどれか2枚を重ねれば絵が浮かびあがるものの、白い画素と黒い画素を表しています。
           左側のオリジナルの白い画素に対応する組は、どのように重ねても3画素中の1画素のみが黒くなります。

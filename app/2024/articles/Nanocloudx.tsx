@@ -2,23 +2,16 @@ import {Image} from '@/components/Image'
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {TwoColumn} from '@/components/TwoColumn'
+import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
 
-type Props = {
-  pageNumber: number
-}
+export function Nanocloudx() {
+  const info = getArticleInfo('nanocloudx')
+  const startPage = getStartPage(info.id)
 
-export function Nanocloudx({pageNumber}: Props) {
   return (
-    <div id={'nanocloudx'}>
-      <Page pageNumber={pageNumber + 0}>
-        <Title
-          title={'ドバイで石油王になろう'}
-          description={'5000兆円欲しいのでUAEに行ってきたわよ！'}
-          name={'なのくろ'}
-          image={'/2024/authors/nanocloudx.jpg'}
-          linkX={'nanocloudx'}
-          linkWeb={'wwww.dev'}
-        />
+    <div id={info.id}>
+      <Page pageNumber={startPage}>
+        <Title articleInfo={info}/>
         <section>
           <p>
             突然ですが、お金持ちになりたいと思ったことある？ありますわよね？？？
@@ -67,7 +60,7 @@ export function Nanocloudx({pageNumber}: Props) {
           </p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 1}>
+      <Page pageNumber={startPage + 1}>
         <section>
           <h2>砂漠を掘ってみた</h2>
           <p>ドバイ着いたし、早速油田を掘り当てるゾ！！！</p>
@@ -76,7 +69,7 @@ export function Nanocloudx({pageNumber}: Props) {
           <Image height={'57mm'} src={'/2024/nanocloudx/04.jpg'} alt={'むりだったーーー'}/>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 2}>
+      <Page pageNumber={startPage + 2}>
         <section>
           <h2>だめでした...</h2>
           <p>
@@ -105,7 +98,7 @@ export function Nanocloudx({pageNumber}: Props) {
           <Image height={'107mm'} src={'/2024/nanocloudx/05.jpg'} alt={'もはや神々しい'}/>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 3}>
+      <Page pageNumber={startPage + 3}>
         <section>
           <TwoColumn>
             <div>
@@ -153,7 +146,7 @@ export function Nanocloudx({pageNumber}: Props) {
           </p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 4}>
+      <Page pageNumber={startPage + 4}>
         <section>
           <TwoColumn>
             <div>
@@ -200,7 +193,7 @@ export function Nanocloudx({pageNumber}: Props) {
           </p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 5}>
+      <Page pageNumber={startPage + 5}>
         <section>
           <TwoColumn>
             <div>
@@ -246,7 +239,7 @@ export function Nanocloudx({pageNumber}: Props) {
           </p>
         </section>
       </Page>
-      <Page pageNumber={pageNumber + 6}>
+      <Page pageNumber={startPage + 6}>
         <section>
           <div>
             <h2>不思議な建造物</h2>
