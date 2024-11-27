@@ -10,7 +10,7 @@ export function ShiratamaIori() {
   return (
     <div id={info.id}>
       <Page pageNumber={startPage}>
-        <Title articleInfo={info} titleFontSize={'1.55rem'}/>
+        <Title articleInfo={info} titleFontSize={'1.52rem'}/>
         <section>
           <p>
             17才の頃から秋葉原のメイド喫茶で初お給仕から早や10年…

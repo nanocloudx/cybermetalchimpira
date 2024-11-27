@@ -9,7 +9,7 @@ export function Quisty() {
   return (
     <div id={info.id}>
       <Page pageNumber={startPage}>
-        <Title articleInfo={info}/>
+        <Title articleInfo={info} titleFontSize={'1.68rem'}/>
         <h2>面接、転職の「異変」たち</h2>
         <section>
           <h3>「ボーナスはねー、多分契約（社員）でも年1回は出るんじゃない？」</h3>
