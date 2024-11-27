@@ -105,16 +105,6 @@ export const articleInfoList: ArticleInfo[] = [
     authorLinkWeb: 'wwww.dev',
   },
   {
-    id: 'fuyutsubaki',
-    component: <Fuyutsubaki/>,
-    totalPage: 2,
-    title: '未定',
-    description: '未定',
-    atogaki: '未定',
-    authorName: '冬椿',
-    authorImage: '/2024/authors/fuyutsubaki.png',
-  },
-  {
     id: 'arushiro',
     component: <Arushiro/>,
     totalPage: 9,
@@ -144,6 +134,16 @@ export const articleInfoList: ArticleInfo[] = [
     authorName: 'kusano_k',
     authorImage: '/2024/authors/kusano.png',
     authorLinkX: 'kusano_k',
+  },
+  {
+    id: 'fuyutsubaki',
+    component: <Fuyutsubaki/>,
+    totalPage: 2,
+    title: '未定',
+    description: '未定',
+    atogaki: '未定',
+    authorName: '冬椿',
+    authorImage: '/2024/authors/fuyutsubaki.png',
   },
   {
     id: 'pokeba',
@@ -191,7 +191,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'dera',
     component: <Dera/>,
-    totalPage: 2,
+    totalPage: 10,
     title: 'メンズコーチチンピラDの弱男育成記録',
     description: '世の弱男どもを一端の男にするありがてぇ話をしてやるよ',
     atogaki: '未定',

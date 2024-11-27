@@ -10,7 +10,6 @@ export function Fuyutsubaki() {
     <div id={info.id}>
       <Page pageNumber={startPage}>
         <Title articleInfo={info}/>
-        <p>It works!</p>
       </Page>
       <Page pageNumber={startPage + 1}>
         <p>It works!</p>
