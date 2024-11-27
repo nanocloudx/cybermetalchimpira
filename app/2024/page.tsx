@@ -24,17 +24,17 @@ const pageCount = {
   mokuji: 1,
   prologue: 2,
   daichiro: 4,
-  sashimi: 2,
+  sashimi: 1,
   nanocloudx: 7,
-  fuyutsubaki: 2,
+  fuyutsubaki: 1,
   arushiro: 9,
   kinoppyd: 6,
   kusano: 3,
-  shiratamaIori: 2,
   pokeba: 5,
   quisty: 5,
-  dera: 2,
-  shodaiSato: 2,
+  shiratamaIori: 2,
+  shodaiSato: 3,
+  dera: 1,
   nag4: 5,
   nagaimichiko: 2,
   atogaki: 1,
@@ -64,11 +64,11 @@ export default function Page() {
         <li><a href={'#arushiro'}>あるしろ</a></li>
         <li><a href={'#kinoppyd'}>kinoppyd</a></li>
         <li><a href={'#kusano'}>kusano_k</a></li>
-        <li><a href={'#shiratamaIori'}>白玉いおり</a></li>
         <li><a href={'#pokeba'}>狂戦士P</a></li>
         <li><a href={'#quisty'}>きすちぃ</a></li>
-        <li><a href={'#dera'}>チンピラD</a></li>
+        <li><a href={'#shiratamaIori'}>白玉いおり</a></li>
         <li><a href={'#shodaiSato'}>めたもん</a></li>
+        <li><a href={'#dera'}>チンピラD</a></li>
         <li><a href={'#nag4'}>nag4</a></li>
         <li><a href={'#nagaimichiko'}>ながいたん</a></li>
         <li><a href={'#atogaki'}>あとがき</a></li>
@@ -84,11 +84,11 @@ export default function Page() {
       <Arushiro pageNumber={getPageNumber('arushiro')}/>
       <Kinoppyd pageNumber={getPageNumber('kinoppyd')}/>
       <Kusano pageNumber={getPageNumber('kusano')}/>
-      <ShiratamaIori pageNumber={getPageNumber('shiratamaIori')}/>
       <Pokeba pageNumber={getPageNumber('pokeba')}/>
       <Quisty pageNumber={getPageNumber('quisty')}/>
-      <Dera pageNumber={getPageNumber('dera')}/>
+      <ShiratamaIori pageNumber={getPageNumber('shiratamaIori')}/>
       <ShodaiSato pageNumber={getPageNumber('shodaiSato')}/>
+      <Dera pageNumber={getPageNumber('dera')}/>
       <Nag4 pageNumber={getPageNumber('nag4')}/>
       <Nagaimichiko pageNumber={getPageNumber('nagaimichiko')}/>
       <Atogaki pageNumber={getPageNumber('atogaki')}/>
