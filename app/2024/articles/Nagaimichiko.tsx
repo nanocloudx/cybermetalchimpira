@@ -1,11 +1,12 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
 import {Image} from '@/components/Image'
-import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
+import {getArticleInfo, getStartPage} from '@/app/lib'
+import {articleInfoList} from '@/app/2024/articleInfoList'
 
 export function Nagaimichiko() {
-  const info = getArticleInfo('nagaimichiko')
-  const startPage = getStartPage(info.id)
+  const info = getArticleInfo('nagaimichiko', articleInfoList)
+  const startPage = getStartPage(info.id, articleInfoList)
 
   return (
     <div id={info.id}>

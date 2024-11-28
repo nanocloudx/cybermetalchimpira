@@ -1,6 +1,6 @@
 import style from './Title.module.scss'
 import {AtSignIcon, MonitorSmartphoneIcon,} from 'lucide-react'
-import {ArticleInfo} from '@/app/2024/articleInfo'
+import {ArticleInfo} from '@/app/lib'
 
 type Props = {
   articleInfo: ArticleInfo

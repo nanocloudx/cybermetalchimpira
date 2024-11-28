@@ -1,11 +1,12 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
-import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
+import {getArticleInfo, getStartPage} from '@/app/lib'
+import {articleInfoList} from '@/app/2024/articleInfoList'
 import style from './Dera.module.scss'
 
 export function Dera() {
-  const info = getArticleInfo('dera')
-  const startPage = getStartPage(info.id)
+  const info = getArticleInfo('dera', articleInfoList)
+  const startPage = getStartPage(info.id, articleInfoList)
 
   return (
     <div id={info.id} className={style.dera}>
@@ -50,14 +51,14 @@ export function Dera() {
       <Page pageNumber={startPage + 1}>
         <section>
           <ul>
-          <li>
-            会ってみた時の第一印象
-            <ul>
-              <li>小太りで、顔にやたら肉が多い</li>
-              <li>目が死んでいて、とにかく覇気がねぇ</li>
-              <li>なんかめっちゃ挙動不審</li>
-            </ul>
-          </li>
+            <li>
+              会ってみた時の第一印象
+              <ul>
+                <li>小太りで、顔にやたら肉が多い</li>
+                <li>目が死んでいて、とにかく覇気がねぇ</li>
+                <li>なんかめっちゃ挙動不審</li>
+              </ul>
+            </li>
             <li>
               少し話してみて分かった表面的なこと
               <ul>
@@ -262,7 +263,7 @@ export function Dera() {
       </Page>
       <Page pageNumber={startPage + 5}>
         <p>
-        当然1回目のデート終了後にブロックされることが日常茶飯事だった。だが、色々な女に会う度に女は神話ではなく人間だという感覚が芽生えて会話が自然にできるようになったらしい。
+          当然1回目のデート終了後にブロックされることが日常茶飯事だった。だが、色々な女に会う度に女は神話ではなく人間だという感覚が芽生えて会話が自然にできるようになったらしい。
         </p>
         <h3>成果振り返り(2年目)</h3>
         <p>
@@ -378,7 +379,8 @@ export function Dera() {
         <p>
           だがな、ここからは2年前にあるチンピラが残した言葉をそのまま引用させてもらう。
         </p>
-        <blockquote>この同人誌は「サイバーメタルチンピラ」である。<br/>ここまでフラグを立てまくったので、そろそろボッコボコに折られなければいけない。<br/>当然ハッピーエンドなわけがないだろう。</blockquote>
+        <blockquote>この同人誌は「サイバーメタルチンピラ」である。<br/>ここまでフラグを立てまくったので、そろそろボッコボコに折られなければいけない。<br/>当然ハッピーエンドなわけがないだろう。
+        </blockquote>
         <p>
           まさしくこの言葉の通りだった。綺麗に立てたフラグは一瞬にして跡形もなく粉々に砕かれたんだ。どうやら胸糞悪いことも構えてねぇ時に来るらしい。<br/>
           端的に言うと、破局した。<br/>

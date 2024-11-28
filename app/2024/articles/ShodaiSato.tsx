@@ -1,10 +1,11 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
-import {getArticleInfo, getStartPage} from '@/app/2024/articleInfo'
+import {getArticleInfo, getStartPage} from '@/app/lib'
+import {articleInfoList} from '@/app/2024/articleInfoList'
 
 export function ShodaiSato() {
-  const info = getArticleInfo('shodaiSato')
-  const startPage = getStartPage(info.id)
+  const info = getArticleInfo('shodaiSato', articleInfoList)
+  const startPage = getStartPage(info.id, articleInfoList)
 
   return (
     <div id={info.id}>

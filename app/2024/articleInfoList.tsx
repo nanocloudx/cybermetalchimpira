@@ -17,39 +17,7 @@ import {Prologue} from '@/app/2024/articles/Prologue'
 import {Atogaki} from '@/app/2024/articles/Atogaki'
 import {Omake} from '@/app/2024/articles/Omake'
 import {Okuduke} from '@/app/2024/articles/Okuduke'
-
-type ArticleId =
-  'mokuji' | 'prologue' | 'atogaki' | 'omake' | 'okuduke' |
-  'arushiro' | 'daichiro' | 'fuyutsubaki' | 'kusano' |
-  'nanocloudx' | 'pokeba' | 'quisty' | 'sashimi' |
-  'shiratamaIori' | 'shodaiSato' | 'dera' | 'nag4' |
-  'nagaimichiko' | 'kinoppyd'
-
-export type ArticleInfo = {
-  id: ArticleId
-  component: React.ReactElement
-  totalPage: number
-  title: string
-  description: string
-  atogaki: string
-  authorName: string
-  authorImage: string
-  authorLinkX?: string
-  authorLinkWeb?: string
-}
-
-export function getStartPage(id: ArticleId) {
-  let pageNumber = 1
-  for (const article of articleInfoList) {
-    if (article.id === id) break
-    pageNumber += article.totalPage
-  }
-  return pageNumber
-}
-
-export function getArticleInfo(id: ArticleId) {
-  return articleInfoList.find((article) => article.id === id)!
-}
+import {ArticleInfo} from '@/app/lib'
 
 export const articleInfoList: ArticleInfo[] = [
   {
