@@ -149,7 +149,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'shodaiSato',
     component: <ShodaiSato/>,
-    totalPage: 3,
+    totalPage: 4,
     title: '愛と金',
     description: 'あるいは信頼と信用',
     atogaki: '未定',
