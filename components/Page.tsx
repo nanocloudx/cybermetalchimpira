@@ -4,15 +4,16 @@ import {PropsWithChildren} from 'react'
 
 type Props = {
   pageNumber: number
+  hidePageNumber?: boolean
 }
 
-export function Page({children, pageNumber}: PropsWithChildren<Props>) {
+export function Page({children, pageNumber, hidePageNumber}: PropsWithChildren<Props>) {
   return (
     <div className={`${style.page} ${pageNumber % 2 === 0 ? style.even : style.odd}`}>
       <div className={style.container}>
         {children}
       </div>
-      {pageNumber !== 0 && (
+      {!hidePageNumber && (
         <div className={`${style.pageNumber} ${pageNumber % 2 === 0 ? style.even : style.odd}`}>{pageNumber}</div>
       )}
     </div>
