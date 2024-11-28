@@ -53,11 +53,11 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'sashimi',
     component: <Sashimi/>,
-    totalPage: 2,
-    title: '未定',
-    description: '未定',
+    totalPage: 5,
+    title: '盆踊れ',
+    description: '盆踊りにハマった。',
     atogaki: '未定',
-    authorName: 'さしみ',
+    authorName: 'sashimi',
     authorImage: '/2024/authors/sashimi.png',
   },
   {
@@ -209,7 +209,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'okuduke',
     component: <Okuduke/>,
-    totalPage: 0,
+    totalPage: 1,
     title: '奥付',
     description: '',
     atogaki: '',

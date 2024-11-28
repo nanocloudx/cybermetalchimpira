@@ -4,13 +4,7 @@ import {articleInfoList} from '@/app/2024/articleInfoList'
 export default function Page() {
   return (
     <div>
-      <Navigation year={'2024'}>
-        {articleInfoList.map((info) => (
-          <li key={info.id}>
-            <a href={`#${info.id}`}>{info.authorName || info.title} ({info.totalPage}p)</a>
-          </li>
-        ))}
-      </Navigation>
+      <Navigation year={'2024'} articleInfoList={articleInfoList} />
       {articleInfoList.map((info) => info.component)}
     </div>
   )
