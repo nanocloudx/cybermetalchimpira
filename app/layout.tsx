@@ -1,6 +1,6 @@
 import type {Metadata} from 'next'
 import {enFont, jaFont} from './fonts'
-import './globals.css'
+import './globals.scss'
 
 export const metadata: Metadata = {
   title: 'サイバーメタルチンピラ',
