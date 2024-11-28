@@ -15,7 +15,7 @@ export function Fuyutsubaki() {
         <Title articleInfo={info} titleFontSize={'1.41rem'}/>
         <TwoColumn>
           <Image height={'50mm'} src={'/2024/fuyutsubaki/image.jpg'}
-                 alt={'ローランド・TR-909 ソフトウェア・シンセサイザー'}/>
+                 alt={'TR-909(クローン) と Exhibitionist2'}/>
           <div>
             <p>人は誰しもjeff millsになりたいものである<br/>少なくとも自分はそうである</p>
             <p>幸いにも数日前、TR-909のクローンを購入した。</p>
