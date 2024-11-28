@@ -67,7 +67,7 @@ export function Nanocloudx() {
           <p>ドバイ着いたし、早速油田を掘り当てるゾ！！！</p>
           <Image height={'57mm'} src={'/2024/nanocloudx/02.jpg'} alt={'うおおおおおお！！！'}/>
           <Image height={'57mm'} src={'/2024/nanocloudx/03.jpg'} alt={'うおおおおおおおおおおおお！！！！！！'}/>
-          <Image height={'57mm'} src={'/2024/nanocloudx/04.jpg'} alt={'むりだったーーー'}/>
+          <Image height={'57mm'} src={'/2024/nanocloudx/04.jpg'} alt={'むりですわーーーーー'}/>
         </section>
       </Page>
       <Page pageNumber={startPage + 2}>

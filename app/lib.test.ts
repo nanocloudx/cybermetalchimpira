@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest'
+import {expect, test} from 'vitest'
 import {getStartPage} from '@/app/lib'
 import {articleInfoList as list2024} from '@/app/2024/articleInfoList'
 
