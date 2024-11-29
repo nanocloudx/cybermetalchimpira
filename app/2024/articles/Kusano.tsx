@@ -29,7 +29,8 @@ export function Kusano() {
         </p>
         <Image height={'35mm'} src={'/2024/kusano/figure2.png'}/>
         <p>重ねる様子をYouTubeにアップロードしました。</p>
-        <Image height={'35mm'} src={'/2024/kusano/qr.png'}/>
+        <Image height={'20mm'} src={'/2024/kusano/qr.png'}/>
+        <p style={{marginTop: '-1rem', textAlign: 'center'}}>https://youtu.be/HlhFV0BwtnU</p>
       </Page>
       <Page pageNumber={startPage + 1}>
         <p>
@@ -89,14 +90,13 @@ export function Kusano() {
           ということで、使いどころは難しいけれど、原理がシンプルな暗号の紹介でした。
           何か面白い使い方ができないかを考えてみるのも楽しいと思います。
         </p>
-        <blockquote>
-          <b>参考文献</b><br/>
-          Naor, Moni, and Adi Shamir. &quot;Visual cryptography.&quot; Advances in Cryptology&mdash;EUROCRYPT&#39;94:
-          Workshop on the Theory
-          and Application of Cryptographic Techniques Perugia, Italy, May 9&ndash;12, 1994 Proceedings 13. Springer
-          Berlin
-          Heidelberg, 1995.
-        </blockquote>
+        <h3>参考文献</h3>
+        <p style={{textAlign: 'start'}}>
+          Naor, Moni, and Adi Shamir.
+          &quot;Visual cryptography.&quot;
+          <i>Advances in Cryptology&mdash;EUROCRYPT&#39;94: Workshop on the Theory and Application of Cryptographic Techniques Perugia, Italy, May 9&ndash;12, 1994 Proceedings 13</i>.
+          Springer Berlin Heidelberg, 1995.
+        </p>
       </Page>
     </div>
   )
