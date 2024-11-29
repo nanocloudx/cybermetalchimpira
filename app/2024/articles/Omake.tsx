@@ -10,6 +10,12 @@ export function Omake() {
       <Page pageNumber={startPage}>
         <p>*** TODO おまけ ***</p>
       </Page>
+      <Page pageNumber={startPage + 1}>
+        <p>*** TODO おまけ ***</p>
+      </Page>
+      <Page pageNumber={startPage + 2}>
+        <p>*** TODO おまけ ***</p>
+      </Page>
     </div>
   )
 }

@@ -9,21 +9,6 @@ export function Atogaki() {
   return (
     <div id={info.id}>
       <Page pageNumber={startPage}>
-        <section>
-          <AtogakiLayout articleInfoList={articleInfoList}/>
-        </section>
-        <section>
-          <p>
-            <b>謝辞</b><br/>
-            プロローグ：檻総文人<br/>
-            表紙絵生成：kuri<br/>
-            サイバーメタルチンピラガール：白玉いおり<br/>
-            猫：おこげ＆すあま<br/>
-            編集長：kinoppyd / なのくろ
-          </p>
-        </section>
-      </Page>
-      <Page pageNumber={startPage + 1}>
         <h2>編集後記</h2>
         <p>
           <b>ノンジャンル総合誌「サイバーメタルチンピラ」</b>お読み頂きありがとうございます！<br/>
@@ -65,6 +50,21 @@ export function Atogaki() {
           来年も治安維持ノンジャンル総合誌こと、サイバーメタルチンピラをどうぞよろしく。
         </p>
         <p style={{textAlign: 'right'}}>編集担当 なのくろ</p>
+      </Page>
+      <Page pageNumber={startPage + 1}>
+        <section>
+          <AtogakiLayout articleInfoList={articleInfoList}/>
+        </section>
+        <section>
+          <p>
+            <b>謝辞</b><br/>
+            プロローグ：檻総文人<br/>
+            表紙絵生成：kuri<br/>
+            サイバーメタルチンピラガール：白玉いおり<br/>
+            猫：おこげ＆すあま<br/>
+            編集長：kinoppyd / なのくろ
+          </p>
+        </section>
       </Page>
     </div>
   )

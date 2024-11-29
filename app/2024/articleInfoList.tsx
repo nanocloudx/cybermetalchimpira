@@ -189,7 +189,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'omake',
     component: <Omake/>,
-    totalPage: 1,
+    totalPage: 3,
     title: 'おまけ',
     description: '',
     atogaki: '',
