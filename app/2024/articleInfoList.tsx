@@ -140,7 +140,7 @@ export const articleInfoList: ArticleInfo[] = [
     totalPage: 7,
     title: 'ドバイで石油王になろう',
     description: '5000兆円欲しいのでUAEに行ってきたわよ！',
-    atogaki: '石油王になれなかったのでテスラを買いました(錯乱)',
+    atogaki: '石油王になれなかったので大人しく帰国しました',
     authorName: 'なのくろ',
     authorImage: '/2024/authors/nanocloudx.jpg',
     authorLinkX: 'nanocloudx',

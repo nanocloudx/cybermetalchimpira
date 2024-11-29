@@ -3,7 +3,7 @@ export type ArticleId =
   'arushiro' | 'daichiro' | 'fuyutsubaki' | 'kusano' |
   'nanocloudx' | 'pokeba' | 'quisty' | 'sashimi' |
   'shiratamaIori' | 'shodaiSato' | 'dera' | 'nag4' |
-  'nagaimichiko' | 'kinoppyd'
+  'nagaimichiko' | 'kinoppyd' | 'kuri'
 
 export type ArticleInfo = {
   id: ArticleId
