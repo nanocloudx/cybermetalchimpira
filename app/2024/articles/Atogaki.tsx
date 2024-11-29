@@ -18,6 +18,7 @@ export function Atogaki() {
             プロローグ：檻総文人<br/>
             表紙絵生成：kuri<br/>
             サイバーメタルチンピラガール：白玉いおり<br/>
+            猫：おこげ＆すあま<br/>
             編集長：kinoppyd / なのくろ
           </p>
         </section>
