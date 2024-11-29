@@ -13,7 +13,7 @@ export function Arushiro() {
     <div id={info.id}>
       <Page pageNumber={startPage}>
         <Title articleInfo={info}/>
-        <p>初めまして。こちらに寄稿するのは初めてとなります、あるしろと申します。</p>
+        <p>初めまして。あるしろと申します。</p>
         <p>私は何かに挑戦して達成感を得ることが中毒と言えるほどに非常に好きで、韓国語などの語学学習、ヨーヨーやジャグリングの技の習得、トランプ52枚の順番を全て覚えきるトランプ記憶など、日々様々な物事に挑戦しています。</p>
         <p>今回紹介する難しいゲームたちもその一環として挑戦したものです。この記事では以下の7つのゲームについて紹介します。</p>
         <ul>
@@ -50,7 +50,7 @@ export function Arushiro() {
           壺おじ、Pogostuckと並べて三大登山ゲーと評されるJump Kingも壺おじ同様、運要素なしの反復練習で上達するタイプのゲームです。失敗したら結構な距離を戻されるのも同じです。
         </p>
         <p>
-          Steamでのクリア率は執筆時点で9.7%です。ゲームの内容は鉄仮面の男が塔の上にいるというぴっちぴちのギャルをゲットしにいくというストレートでわかりやすい？ストーリーと、道中の美しいドット絵、そして高難度アクションといった感じになっています。
+          Steamでのクリア率は執筆時点で9.7%(Main Babe)です。ゲームの内容は鉄仮面の男が塔の上にいるというぴっちぴちのギャルをゲットしにいくというストレートでわかりやすい？ストーリーと、道中の美しいドット絵、そして高難度アクションといった感じになっています。
         </p>
         <p>
           操作はシンプルで左右キーで移動、ジャンプキーでジャンプ溜め、溜め中にそのまま、もしくは左右入力をしてジャンプキーを離すとそれぞれの方向にジャンプをします。
@@ -72,7 +72,7 @@ export function Arushiro() {
         <Image src={'/2024/arushiro/image8.jpg'} height={'50mm'}
                alt={'ジャンル: 2Dプラットフォーマー'}/>
         <p>Pogostuck、通称ポゴは壺おじやJump
-          Kingとは比較にならないほど難しいゲームです。Steamでのクリア率は執筆時点で3.8%となっています。</p>
+          Kingとは比較にならないほど難しいゲームです。Steamでのクリア率は執筆時点で3.8%(Map 1)となっています。</p>
         <p>私は壺おじ、Jump
           Kingは両方とも約7時間ほどで攻略していますが、Pogostuckはクリアまでに約42時間かかりました。</p>
         <p>操作するキャラクターは常時ホッピングに乗っています。操作は左右キーでホッピングに乗った身体を傾け、ジャンプボタンで高く飛び、高く飛んだ際に一回転して着地するとブーストが溜まってさらに高く飛ぶことができます。</p>
@@ -161,56 +161,56 @@ export function Arushiro() {
         <p>最後に惜しくもページの都合上紹介できなかった達成感溢れるゲームをリストアップします。</p>
         <ul>
           <li>
-            Aim Climb
+            Aim Climb / クリア率: 40.7% (BEGINNER AIM)
             <ul>
               <li>マウスのエイム力で上に上に進んでいく登山ゲー</li>
               <li>https://store.steampowered.com/app/1909770/Aim_Climb/</li>
             </ul>
           </li>
           <li>
-            Baba Is You
+            Baba Is You / クリア率: 8.4%
             <ul>
               <li>動かしたブロックが世界のルールを作る倉庫番パズル</li>
               <li>https://store.steampowered.com/app/736260/Baba_Is_You/</li>
             </ul>
           </li>
           <li>
-            Patrick’s Parabox
+            Patrick’s Parabox / クリア率: 28.8%
             <ul>
               <li>再帰がテーマの倉庫番パズル</li>
               <li>https://store.steampowered.com/app/1260520/Patricks_Parabox/</li>
             </ul>
           </li>
           <li>
-            FTL: Faster Than Light
+            FTL: Faster Than Light / クリア率: 24.6% (Easy)
             <ul>
               <li>ギリギリのリソースで宇宙船を強化して進むストラテジー</li>
               <li>https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/</li>
             </ul>
           </li>
           <li>
-            Into the Breach
+            Into the Breach / クリア率: 52.2% (難易度不問)
             <ul>
               <li>マス目の盤面でキャラを動かして敵を倒すターン制ストラテジー</li>
               <li>https://store.steampowered.com/app/590380/Into_the_Breach/</li>
             </ul>
           </li>
           <li>
-            Understand
+            Understand / クリア率: 8.3%
             <ul>
               <li>説明一切なしでルールを推測するパズルゲーム</li>
               <li>https://store.steampowered.com/app/1299400/Understand/</li>
             </ul>
           </li>
           <li>
-            SHENZHEN I/O
+            SHENZHEN I/O / クリア率: 2.5% (メインキャンペーンの全クリア)
             <ul>
               <li>マイコンをくっつけてスモールコードを書いて製品を作るパズル</li>
               <li>https://store.steampowered.com/app/504210/SHENZHEN_IO/</li>
             </ul>
           </li>
           <li>
-            Turing Complete
+            Turing Complete / クリア率: 21.8%
             <ul>
               <li>動作するコンピューターを素子から作り上げる教育的パズルゲーム</li>
               <li>https://store.steampowered.com/app/1444480/Turing_Complete/</li>
