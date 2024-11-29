@@ -46,7 +46,7 @@ export const articleInfoList: ArticleInfo[] = [
     totalPage: 5,
     title: '盆踊れ',
     description: '盆踊りにハマった。',
-    atogaki: '未定',
+    atogaki: '魔法つかいプリキュア！！～MIRAI DAYS～（2025年1月放送）を見てください',
     authorName: 'sashimi',
     authorImage: '/2024/authors/sashimi.png',
   },

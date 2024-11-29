@@ -8,7 +8,7 @@ type Props = {
 export function AtogakiLayout({articleInfoList}: Props) {
   return (
     <div className={style.main}>
-      <h2>著者からひとこと</h2>
+      <h2>チンピラ達からひとこと</h2>
       {articleInfoList.map((info) => {
         switch (info.id) {
           case 'mokuji':

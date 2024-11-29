@@ -17,7 +17,7 @@ export function MokujiLayout({articleInfoList}: Props) {
             <div key={info.id} className={style.item}>
               <p className={style.pageNumber}>{getStartPage(info.id, articleInfoList).toString().padStart(2, '0')}</p>
               <div>
-                <p>{info.title}</p>
+                <p style={{fontSize: '0.95rem'}}>{info.title}</p>
               </div>
             </div>
           )
