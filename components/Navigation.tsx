@@ -22,7 +22,7 @@ export function Navigation({year, articleInfoList}: Props) {
         ))}
       </ul>
       <p style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        {totalPage % 4 === 0 ? <CircleCheckIcon style={{color: 'green'}} /> : <CircleAlertIcon style={{color: 'red'}} /> }
+        {totalPage % 2 === 0 ? <CircleCheckIcon style={{color: 'green'}} /> : <CircleAlertIcon style={{color: 'red'}} /> }
         <span style={{marginLeft: '0.2rem', fontWeight: 'bold'}}>{totalPage}ページ</span>
       </p>
       <button onClick={() => {

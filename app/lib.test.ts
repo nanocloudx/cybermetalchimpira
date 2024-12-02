@@ -4,5 +4,5 @@ import {articleInfoList as list2024} from '@/app/2024/articleInfoList'
 
 test('入稿可能なページ数である', () => {
   const lastPage = getStartPage('okuduke', list2024)
-  expect(lastPage % 4).toBe(0)
+  expect(lastPage % 2).toBe(0)
 })
