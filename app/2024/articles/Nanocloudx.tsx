@@ -143,7 +143,7 @@ export function Nanocloudx() {
             <Image height={'50mm'} src={'/2024/nanocloudx/08.jpg'} alt={'写真じゃ伝わらない迫力'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
-            あまりに広すぎて、これではドバイ・モールだけで旅が終わってしまうわね。
+            あまりに広すぎて、これではドバイ・モールだけで旅が終わってしまうわ。
           </p>
         </section>
       </Page>
@@ -190,7 +190,7 @@ export function Nanocloudx() {
             <Image height={'50mm'} src={'/2024/nanocloudx/11.jpg'} alt={'どういうことやねん'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
-            なんだか登ってばかりですわね。都市部だけでなく砂漠にも行ってみましょ。
+            なんだか登ってばかりですわね。都市部から砂漠に移動してみましょう。
           </p>
         </section>
       </Page>
@@ -236,7 +236,7 @@ export function Nanocloudx() {
             <Image height={'50mm'} src={'/2024/nanocloudx/14.jpg'} alt={'アラジンの世界みたい'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
-            12月でも若干暑いぐらいでしたので、夏は相当大変そうですわね。
+            12月でも若干暑いぐらいでしたので、夏は相当大変そうですわ。
           </p>
         </section>
       </Page>
@@ -258,7 +258,7 @@ export function Nanocloudx() {
             <h2>ドバイはいいぞ</h2>
             <p>
               食べ物も美味しくて良い旅でしたの。世界の広さを感じることができましたわ！<br/>
-              あなたもドバイでお紅茶片手に石油王を目指してみませんか？
+              あなたもドバイでチャイティー片手に石油王を目指してみませんか？
             </p>
             <Image height={'90mm'} src={'/2024/nanocloudx/18.jpg'}
                    alt={'ブルジュ・ハリファの展望台「At The Top」より愛を込めて'}/>
