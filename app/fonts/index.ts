@@ -31,3 +31,19 @@ export const jaFont = localFont({
   ],
   variable: '--font-ja',
 })
+
+export const minchoFont = localFont({
+  src: [
+    {
+      path: 'BIZUDMincho-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: 'BIZUDMincho-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-mincho',
+})

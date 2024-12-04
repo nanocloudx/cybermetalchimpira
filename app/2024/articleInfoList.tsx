@@ -177,16 +177,6 @@ export const articleInfoList: ArticleInfo[] = [
     authorImage: '/2024/authors/nag4.png',
   },
   {
-    id: 'daichiro',
-    component: <Daichiro/>,
-    totalPage: 4,
-    title: '未定',
-    description: '未定',
-    atogaki: '未定',
-    authorName: 'だいちろ',
-    authorImage: '/2024/authors/daichiro.png',
-  },
-  {
     id: 'omake',
     component: <Omake/>,
     totalPage: 1,
@@ -195,6 +185,16 @@ export const articleInfoList: ArticleInfo[] = [
     atogaki: '',
     authorName: '',
     authorImage: '',
+  },
+  {
+    id: 'daichiro',
+    component: <Daichiro/>,
+    totalPage: 4,
+    title: '未定',
+    description: '未定',
+    atogaki: '未定',
+    authorName: 'だいちろ',
+    authorImage: '/2024/authors/daichiro.png',
   },
   {
     id: 'atogaki',
