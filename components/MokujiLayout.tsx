@@ -14,13 +14,13 @@ export function MokujiLayout({articleInfoList}: Props) {
           case 'prologue':
           case 'atogaki':
             return (
-            <div key={info.id} className={style.item}>
-              <p className={style.pageNumber}>{getStartPage(info.id, articleInfoList).toString().padStart(2, '0')}</p>
-              <div>
-                <p style={{fontSize: '0.95rem'}}>{info.title}</p>
+              <div key={info.id} className={style.item}>
+                <p className={style.pageNumber}>{getStartPage(info.id, articleInfoList).toString().padStart(2, '0')}</p>
+                <div>
+                  <p style={{fontSize: '0.95rem'}}>{info.title}</p>
+                </div>
               </div>
-            </div>
-          )
+            )
           case 'mokuji':
           case 'okuduke':
           case 'omake':
@@ -30,7 +30,8 @@ export function MokujiLayout({articleInfoList}: Props) {
               <div key={info.id} className={style.item}>
                 <p className={style.pageNumber}>{getStartPage(info.id, articleInfoList).toString().padStart(2, '0')}</p>
                 <div>
-                  <p className={style.title}>{info.title}{info.authorName && (<span className={style.authorName}>/ {info.authorName}</span>)}</p>
+                  <p className={style.title}>{info.title}{info.authorName && (
+                    <span className={style.authorName}>/ {info.authorName}</span>)}</p>
                   <p className={style.description}>{info.description}</p>
                 </div>
               </div>

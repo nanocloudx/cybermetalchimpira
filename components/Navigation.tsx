@@ -17,12 +17,13 @@ export function Navigation({year, articleInfoList}: Props) {
       <ul style={{marginBottom: '1rem'}}>
         {articleInfoList.map((info) => (
           <li key={info.id}>
-            <a href={`#${info.id}`}>{info.authorName || info.title} / {getStartPage(info.id, articleInfoList)}p ({info.totalPage}p)</a>
+            <a href={`#${info.id}`}>{info.authorName || info.title} / {getStartPage(info.id, articleInfoList)}p
+              ({info.totalPage}p)</a>
           </li>
         ))}
       </ul>
       <p style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        {totalPage % 2 === 0 ? <CircleCheckIcon style={{color: 'green'}} /> : <CircleAlertIcon style={{color: 'red'}} /> }
+        {totalPage % 2 === 0 ? <CircleCheckIcon style={{color: 'green'}}/> : <CircleAlertIcon style={{color: 'red'}}/>}
         <span style={{marginLeft: '0.2rem', fontWeight: 'bold'}}>{totalPage}ページ</span>
       </p>
       <button onClick={() => {

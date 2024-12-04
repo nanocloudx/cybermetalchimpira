@@ -94,7 +94,8 @@ export function Kusano() {
         <p style={{textAlign: 'start'}}>
           Naor, Moni, and Adi Shamir.
           &quot;Visual cryptography.&quot;
-          <i>Advances in Cryptology&mdash;EUROCRYPT&#39;94: Workshop on the Theory and Application of Cryptographic Techniques Perugia, Italy, May 9&ndash;12, 1994 Proceedings 13</i>.
+          <i>Advances in Cryptology&mdash;EUROCRYPT&#39;94: Workshop on the Theory and Application of Cryptographic
+            Techniques Perugia, Italy, May 9&ndash;12, 1994 Proceedings 13</i>.
           Springer Berlin Heidelberg, 1995.
         </p>
       </Page>
