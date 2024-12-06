@@ -9,7 +9,7 @@ type Props = {
 }
 
 export function Navigation({year, articleInfoList}: Props) {
-  const totalPage = getStartPage('okuduke', articleInfoList) + 4
+  const totalPage = getStartPage('okuduke', articleInfoList) + 4 // 表紙4ページを差し引く
   return (
     <div className={style.main}>
       <p className={style.heading}>サイバーメタルチンピラ<br/>Viewer</p>
@@ -26,6 +26,7 @@ export function Navigation({year, articleInfoList}: Props) {
         {totalPage % 2 === 0 ? <CircleCheckIcon style={{color: 'green'}}/> : <CircleAlertIcon style={{color: 'red'}}/>}
         <span style={{marginLeft: '0.2rem', fontWeight: 'bold'}}>{totalPage}ページ</span>
       </p>
+      <p style={{marginTop: '0.1rem', fontSize: '0.75rem', textAlign: 'center'}}>(本文{totalPage - 4}p + 表紙4p)</p>
       <button onClick={() => {
         window.print()
       }} className={style.print}>印刷
