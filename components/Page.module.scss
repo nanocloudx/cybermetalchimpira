@@ -2,9 +2,9 @@
   position: relative;
   margin: 0 auto 1rem;
   background-color: #fff;
-  width: 176mm;
-  height: 250mm;
-  padding: 16mm;
+  width: 182mm;
+  height: 257mm;
+  padding: 16mm 20mm;
 
   &.even {
     padding-left: 16mm;
@@ -29,7 +29,7 @@
 .pageNumber {
   font-family: var(--font-en), sans-serif;
   position: absolute;
-  top: 240mm;
+  bottom: 6mm;
   left: 50%;
   right: 50%;
   font-size: 0.7rem;
@@ -47,8 +47,8 @@
 }
 
 .container {
-  width: calc(176mm - 40mm);
-  height: calc(250mm - 32mm);
+  width: calc(182mm - 40mm);
+  height: calc(257mm - 32mm);
   border: 1px dashed #ccddee; /* preview */
   overflow-wrap: anywhere; /* 収まらない場合に折り返す */
   word-break: normal; /* 単語の分割はデフォルトに依存 */

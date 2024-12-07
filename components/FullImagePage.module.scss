@@ -2,8 +2,10 @@
   position: relative;
   margin: 0 auto 1rem;
   background-color: #fff;
-  width: 176mm;
-  height: 250mm;
+  //width: 176mm;
+  //height: 250mm;
+  width: 182mm;
+  height: 257mm;
   padding: 6mm 0 10mm;
 
   &.even {
@@ -18,8 +20,8 @@
 }
 
 .container {
-  width: calc(176mm - 20mm);
-  height: calc(250mm - 16mm);
+  width: calc(182mm - 20mm);
+  height: calc(257mm - 16mm);
   border: 1px dashed #ccddee; /* preview */
   @media print {
     border: none;
@@ -34,7 +36,7 @@
 
 .pageNumber {
   position: absolute;
-  top: 240mm;
+  bottom: 6mm;
   left: 50%;
   right: 50%;
   font-size: 0.7rem;
