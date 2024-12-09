@@ -2,11 +2,10 @@
   position: relative;
   margin: 0 auto 1rem;
   background-color: #fff;
-  //width: 176mm;
-  //height: 250mm;
   width: 182mm;
   height: 257mm;
   padding: 6mm 0 10mm;
+  overflow: hidden;
 
   &.even {
     padding-left: 4mm;

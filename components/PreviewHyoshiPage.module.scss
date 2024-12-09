@@ -1,11 +1,12 @@
 .main {
-  width: 176mm;
-  height: 250mm;
+  width: 182mm;
+  height: 257mm;
   margin: 0 auto 1rem;
   background-color: #fff;
-  @media print {
-    display: none;
-  }
+  overflow: hidden;
+  //@media print {
+  //  display: none;
+  //}
 }
 
 .image {
