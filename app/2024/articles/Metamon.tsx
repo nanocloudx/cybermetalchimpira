@@ -3,8 +3,8 @@ import {Title} from '@/components/Title'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2024/articleInfoList'
 
-export function ShodaiSato() {
-  const info = getArticleInfo('shodaiSato', articleInfoList)
+export function Metamon() {
+  const info = getArticleInfo('metamon', articleInfoList)
   const startPage = getStartPage(info.id, articleInfoList)
 
   return (

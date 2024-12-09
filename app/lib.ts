@@ -1,9 +1,9 @@
 export type ArticleId =
   'mokuji' | 'prologue' | 'atogaki' | 'okuduke' | 'hyoshi1' | 'hyoshi2' | 'omake1' | 'omake2' |
   'arushiro' | 'daichiro' | 'fuyutsubaki' | 'kusano' |
-  'nanocloudx' | 'pokeba' | 'quisty' | 'sashimi' |
-  'shiratamaIori' | 'shodaiSato' | 'dera' | 'nag4' |
-  'nagaimichiko' | 'kinoppyd' | 'kuri'
+  'nanocloudx' | 'berserker' | 'quisty' | 'sashimi' |
+  'shiratamaIori' | 'metamon' | 'dera' | 'nag4' |
+  'nagaitan' | 'kinoppyd' | 'kuri'
 
 export type ArticleInfo = {
   id: ArticleId

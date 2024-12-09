@@ -4,8 +4,8 @@ import {Image} from '@/components/Image'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2024/articleInfoList'
 
-export function Nagaimichiko() {
-  const info = getArticleInfo('nagaimichiko', articleInfoList)
+export function Nagaitan() {
+  const info = getArticleInfo('nagaitan', articleInfoList)
   const startPage = getStartPage(info.id, articleInfoList)
 
   return (
@@ -41,7 +41,7 @@ export function Nagaimichiko() {
         <section>
           <p>いまだに実感がない気もするけれど、君が私を母にしてくれました。なんで君はこんなにも日々私を愛してくれるのだろうと不思議で仕方がないけれども、君の信頼と愛情を裏切らない自分でありたいと思うのです。</p>
           <p>君の瞳に映る私が、いつも笑顔でありますように。</p>
-          <Image height={'155mm'} src={'/2024/nagaimichiko/image1.jpg'}/>
+          <Image height={'155mm'} src={'/2024/nagaitan/image1.jpg'}/>
         </section>
       </Page>
     </div>

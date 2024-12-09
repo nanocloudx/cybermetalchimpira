@@ -3,8 +3,8 @@ import {Title} from '@/components/Title'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2024/articleInfoList'
 
-export function Pokeba() {
-  const info = getArticleInfo('pokeba', articleInfoList)
+export function Berserker() {
+  const info = getArticleInfo('berserker', articleInfoList)
   const startPage = getStartPage(info.id, articleInfoList)
 
   return (

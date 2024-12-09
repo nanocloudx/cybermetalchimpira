@@ -5,13 +5,13 @@ import {Fuyutsubaki} from '@/app/2024/articles/Fuyutsubaki'
 import {Arushiro} from '@/app/2024/articles/Arushiro'
 import {Kinoppyd} from '@/app/2024/articles/Kinoppyd'
 import {Kusano} from '@/app/2024/articles/Kusano'
-import {Pokeba} from '@/app/2024/articles/Pokeba'
+import {Berserker} from '@/app/2024/articles/Berserker'
 import {Quisty} from '@/app/2024/articles/Quisty'
 import {ShiratamaIori} from '@/app/2024/articles/ShiratamaIori'
-import {ShodaiSato} from '@/app/2024/articles/ShodaiSato'
+import {Metamon} from '@/app/2024/articles/Metamon'
 import {Dera} from '@/app/2024/articles/Dera'
 import {Nag4} from '@/app/2024/articles/Nag4'
-import {Nagaimichiko} from '@/app/2024/articles/Nagaimichiko'
+import {Nagaitan} from '@/app/2024/articles/Nagaitan'
 import {Mokuji} from '@/app/2024/articles/Mokuji'
 import {Prologue} from '@/app/2024/articles/Prologue'
 import {Atogaki} from '@/app/2024/articles/Atogaki'
@@ -62,14 +62,14 @@ export const articleInfoList: ArticleInfo[] = [
     authorImage: '/2024/authors/sashimi.png',
   },
   {
-    id: 'shodaiSato',
-    component: <ShodaiSato/>,
+    id: 'metamon',
+    component: <Metamon/>,
     totalPage: 3,
     title: '愛と金',
     description: 'あるいは信頼と信用',
     atogaki: '愛情込めて作りました',
     authorName: 'めたもん',
-    authorImage: '/2024/authors/shodaisato.png',
+    authorImage: '/2024/authors/metamon.png',
   },
   {
     id: 'kusano',
@@ -105,14 +105,14 @@ export const articleInfoList: ArticleInfo[] = [
     authorLinkWeb: 'lit.link/Quisty'
   },
   {
-    id: 'pokeba',
-    component: <Pokeba/>,
+    id: 'berserker',
+    component: <Berserker/>,
     totalPage: 5,
     title: 'リファレンスチェックに想いを馳せる',
     description: '推薦者視点での備忘録',
     atogaki: 'はたらきたくない！！！',
     authorName: '狂戦士P',
-    authorImage: '/2024/authors/pokeba.png',
+    authorImage: '/2024/authors/berserker.png',
   },
   {
     id: 'dera',
@@ -168,14 +168,14 @@ export const articleInfoList: ArticleInfo[] = [
     authorImage: '/2024/authors/fuyutsubaki.png',
   },
   {
-    id: 'nagaimichiko',
-    component: <Nagaimichiko/>,
+    id: 'nagaitan',
+    component: <Nagaitan/>,
     totalPage: 2,
     title: '662日目のラブレター',
     description: '君に伝えておきたいことがあるんだ',
     atogaki: '我が子は最近パパをママと呼び、ママをパパと呼びます',
     authorName: 'ながいたん',
-    authorImage: '/2024/authors/nagaimichiko.jpeg',
+    authorImage: '/2024/authors/nagaitan.jpeg',
   },
   {
     id: 'nag4',
