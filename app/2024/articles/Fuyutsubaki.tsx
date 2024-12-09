@@ -13,19 +13,17 @@ export function Fuyutsubaki() {
     <div id={info.id}>
       <Page pageNumber={startPage}>
         <Title articleInfo={info} titleFontSize={'1.41rem'}/>
-        <TwoColumn>
-          <Image height={'50mm'} src={'/2024/fuyutsubaki/image.jpg'}
-                 alt={'TR-909(クローン) と Exhibitionist2'}/>
-          <div>
-            <p>人は誰しもjeff millsになりたいものである<br/>少なくとも自分はそうである</p>
-            <p>幸いにも数日前、TR-909のクローンを購入した。</p>
-            <p>
-              したがって、なるのである<br/>
-              jeff millsのように909を操れるように。<br/>
-              1週間挑戦していく
-            </p>
-          </div>
-        </TwoColumn>
+        <Image height={'60mm'} src={'/2024/fuyutsubaki/image.jpg'}
+               alt={'TR-909(クローン) と Exhibitionist2'}/>
+        <div>
+          <p>人は誰しもjeff millsになりたいものである<br/>少なくとも自分はそうである</p>
+          <p>幸いにも数日前、TR-909のクローンを購入した。</p>
+          <p>
+            したがって、なるのである<br/>
+            jeff millsのように909を操れるように。<br/>
+            1週間挑戦していく
+          </p>
+        </div>
         <h2>1日目</h2>
         <p>今日の課題：909の取説を読む</p>
         <p>何事も10-30時間ほどガチれば、多少は理解できる物があると思っている<br/>なので、とりあえず1週間やっていくことにした
@@ -35,12 +33,12 @@ export function Fuyutsubaki() {
         <p>TR-909の取説は現在でもrolandのHPの「レガシー製品情報」の項目から入手することができる<br/>https://www.roland.com/jp/support/archives/archive_manuals_t-z/
         </p>
         <p>流石に1983年のプロダクトなだけあって全体的に古臭いというか、古い</p>
+      </Page>
+      <Page pageNumber={startPage + 1}>
         <h2>2日目</h2>
         <p>今日の課題：「Exhibitionist2 Mix3 TR-909 Workout」がやっていることを理解する</p>
         <p>「Exhibitionist」 はjeff millsのDJプレイの映像作品である<br/>DJ技術普及を目的とし、jeff
           millsのすごいDJプレイを様々なアングルから映像に収めた</p>
-      </Page>
-      <Page pageNumber={startPage + 1}>
         <p>「Exhibitionist2 Mix3 TR-909 Workout」はその中でも TR-909
           単体で（つまり他にシンセやエフェクターを使わずに）ライブを行う回である</p>
         <p>この映像は数年前の 909の日に無料公開されたため「Jeff Mills TR-909 Session beatport」等で検索すれば誰でも見ることができる<br/>https://www.facebook.com/watch/?v=10155490245628193
@@ -67,11 +65,11 @@ export function Fuyutsubaki() {
           の楽器に対応する</p>
         <p>同じ楽器が並んでいるものは左を押すと少し強い音が出る<br/>
           クローズハイハットは2つ同時押しするとオープンハイハットになる。なんだこの仕様</p>
+      </Page>
+      <Page pageNumber={startPage + 2}>
         <p>また、特定の音は同時にならすことができず、入力された場合後から入力したほうでパターンが上書きされる<br/>
           動画中ではこれは利用し、元入力をclearで消す動作なくリアルタイムに音を書き換えている<br/>
           (クローズ・オープンハイハットがわかりやすい)</p>
-      </Page>
-      <Page pageNumber={startPage + 2}>
         <h3>サウンド調整つまみ</h3>
         <p>
           TR-909上の方についているつまみ類<br/>
@@ -98,10 +96,10 @@ export function Fuyutsubaki() {
         </p>
         <h2>3-4日目</h2>
         <p>今日の課題：得たテクニックでいろいろ遊んでみる</p>
-        <p>遊んだ結果、不格好ながら上で言語化したテクニックはできるようになった<br/>しかし、「人は数日程度ではjeff
-          millsになれない」という、あまりにも当たり前の事実に気が付く</p>
       </Page>
       <Page pageNumber={startPage + 3}>
+        <p>遊んだ結果、不格好ながら上で言語化したテクニックはできるようになった<br/>しかし、「人は数日程度ではjeff
+          millsになれない」という、あまりにも当たり前の事実に気が付く</p>
         <h2>5日目</h2>
         <p>今日の課題：現実的な終わりの目標を作る</p>
         <p>当初はjeff millsのように909を操れるようになることが目標であった<br/>しかし、あと数日ではどう考えても無理である

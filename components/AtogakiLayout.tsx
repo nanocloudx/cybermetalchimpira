@@ -15,7 +15,8 @@ export function AtogakiLayout({articleInfoList}: Props) {
           case 'prologue':
           case 'atogaki':
           case 'okuduke':
-          case 'omake':
+          case 'omake1':
+          case 'omake2':
             return null
           default:
             return (

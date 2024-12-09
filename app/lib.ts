@@ -1,6 +1,6 @@
 export type ArticleId =
-  'mokuji' | 'prologue' | 'atogaki' | 'omake' | 'okuduke' | 'hyoshi1' | 'hyoshi2' |
-  'arushiro' | 'daichiro' | 'fuyutsubaki' | 'kusano' |
+  'mokuji' | 'prologue' | 'atogaki' | 'okuduke' | 'hyoshi1' | 'hyoshi2' | 'omake1' | 'omake2' |
+'arushiro' | 'daichiro' | 'fuyutsubaki' | 'kusano' |
   'nanocloudx' | 'pokeba' | 'quisty' | 'sashimi' |
   'shiratamaIori' | 'shodaiSato' | 'dera' | 'nag4' |
   'nagaimichiko' | 'kinoppyd' | 'kuri'

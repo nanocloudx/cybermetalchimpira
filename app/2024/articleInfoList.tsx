@@ -15,9 +15,10 @@ import {Nagaimichiko} from '@/app/2024/articles/Nagaimichiko'
 import {Mokuji} from '@/app/2024/articles/Mokuji'
 import {Prologue} from '@/app/2024/articles/Prologue'
 import {Atogaki} from '@/app/2024/articles/Atogaki'
-import {Omake} from '@/app/2024/articles/Omake'
+import {Omake2} from '@/app/2024/articles/Omake2'
 import {Okuduke} from '@/app/2024/articles/Okuduke'
 import {ArticleInfo} from '@/app/lib'
+import {Omake1} from '@/app/2024/articles/Omake1'
 
 export const articleInfoList: ArticleInfo[] = [
   {
@@ -41,6 +42,16 @@ export const articleInfoList: ArticleInfo[] = [
     authorImage: '',
   },
   {
+    id: 'omake1',
+    component: <Omake1/>,
+    totalPage: 1,
+    title: 'おまけ',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+  {
     id: 'sashimi',
     component: <Sashimi/>,
     totalPage: 5,
@@ -53,7 +64,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'shodaiSato',
     component: <ShodaiSato/>,
-    totalPage: 4,
+    totalPage: 3,
     title: '愛と金',
     description: 'あるいは信頼と信用',
     atogaki: '愛情込めて作りました',
@@ -177,8 +188,8 @@ export const articleInfoList: ArticleInfo[] = [
     authorImage: '/2024/authors/nag4.png',
   },
   {
-    id: 'omake',
-    component: <Omake/>,
+    id: 'omake2',
+    component: <Omake2/>,
     totalPage: 1,
     title: 'おまけ',
     description: '',

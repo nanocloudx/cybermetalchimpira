@@ -32,7 +32,7 @@ export function Arushiro() {
         <h2>Getting Over It with Bennett Foddy</h2>
         <p
           style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/</p>
-        <Image src={'/2024/arushiro/image6.jpg'} height={'50mm'} alt={'ジャンル: 2Dプラットフォーマー'}/>
+        <Image src={'/2024/arushiro/image6.jpg'} height={'55mm'} alt={'ジャンル: 2Dプラットフォーマー'}/>
         <p>日本では通称壺おじと呼ばれているこのゲームは登山ゲー(英語ではFoddian)というジャンルを作ったゲームです。非常に高難易度なことで知られていて、記事執筆時点でのSteam実績を見るとクリア率は9.1%となっています。</p>
         <p>主人公はハンマーを持ってなぜか壺に入っているおじさんで、プレイヤーはこのおじさんが持っているハンマーを操作して山を上へ上へと進んでいきます。ハンマーの操作はマウスのみです。マウスカーソルを回転させるとハンマーがおじさんを中心に回転し、おじさんに対してカーソルを中央、もしくは外方向に移動させるとハンマーが押し引きされます。</p>
         <p>ハンマーのグリップ力とおじさんの腕力はすさまじく、地形にハンマーがひっかかったらカーソルを回転させるとハンマーの引っかかった所を中心におじさんが回転するように上の方へ登っていきます。基本的にこの操作で山を登っていくことになります。この一癖ある操作方法に加えて、失敗したら容赦なく谷底へ突き落とすレベルデザインがこのゲームを難しくしています。</p>
@@ -44,7 +44,7 @@ export function Arushiro() {
       <Page pageNumber={startPage + 2}>
         <h2>Jump King</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/1061090/Jump_King/</p>
-        <Image src={'/2024/arushiro/image4.jpg'} height={'50mm'}
+        <Image src={'/2024/arushiro/image4.jpg'} height={'55mm'}
                alt={'ジャンル: 2Dプラットフォーマー...と見せかけてゴルフゲーかも'}/>
         <p>
           壺おじ、Pogostuckと並べて三大登山ゲーと評されるJump Kingも壺おじ同様、運要素なしの反復練習で上達するタイプのゲームです。失敗したら結構な距離を戻されるのも同じです。
@@ -70,7 +70,7 @@ export function Arushiro() {
         <h2>Pogostuck: Rage With Your Friends</h2>
         <p
           style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/</p>
-        <Image src={'/2024/arushiro/image8.jpg'} height={'50mm'}
+        <Image src={'/2024/arushiro/image8.jpg'} height={'55mm'}
                alt={'ジャンル: 2Dプラットフォーマー'}/>
         <p>Pogostuck、通称ポゴは壺おじやJump
           Kingとは比較にならないほど難しいゲームです。Steamでのクリア率は執筆時点で3.8%(Map 1)となっています。</p>
@@ -93,7 +93,7 @@ export function Arushiro() {
         <h2>Celeste</h2>
         <p
           style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/504230/Celeste/</p>
-        <Image src={'/2024/arushiro/image5.jpg'} height={'50mm'}
+        <Image src={'/2024/arushiro/image5.jpg'} height={'55mm'}
                alt={'ジャンル: 2Dプラットフォーマー'}/>
         <p>Celesteはマリオなどと同じく足場を乗り移っていって、落ちたりトゲに触れたらミスになるよく見かける形式の2Dプラットフォーマーゲームです。</p>
         <p>そこら中穴だらけトゲだらけですが、ミスしても即座にその画面からやりなおしできるストレスフリーなリトライが可能なのがこのゲームの非常によいポイントです。</p>
@@ -111,7 +111,7 @@ export function Arushiro() {
       <Page pageNumber={startPage + 5}>
         <h2>Noita</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/881100/Noita/</p>
-        <Image src={'/2024/arushiro/image1.jpg'} height={'50mm'}
+        <Image src={'/2024/arushiro/image1.jpg'} height={'55mm'}
                alt={'ジャンル: 2Dプラットフォーマー x ローグライク'}/>
         <p>Noitaはこれまで紹介した2Dプラットフォーマーとは違い、運要素のあるローグライク性がある2Dプラットフォーマーゲームです。</p>
         <p>プレイヤーはNoita(フィンランド語で魔女)となって、杖やポーションを駆使しつつダンジョンの底を目指して進んでいきます。</p>
@@ -127,7 +127,7 @@ export function Arushiro() {
       <Page pageNumber={startPage + 6}>
         <h2>Slay the Spire</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/646570/Slay_the_Spire/</p>
-        <Image src={'/2024/arushiro/image2.jpg'} height={'50mm'}
+        <Image src={'/2024/arushiro/image2.jpg'} height={'55mm'}
                alt={'ジャンル: カードゲーム x ローグライク'}/>
         <p>Slay the Spireはカードゲームとローグライクを組み合わせたゲームです。</p>
         <p>このゲームで使うカードにはコストと「ダメージを6与える」といった文言が書かれていて、各ターンカードを5枚引いて、毎ターン使える3エナジー分のコストのカードをプレイすることができます。</p>
@@ -142,10 +142,10 @@ export function Arushiro() {
       <Page pageNumber={startPage + 7}>
         <h2>TUNIC</h2>
         <p style={{marginTop: '-0.8rem'}}>https://store.steampowered.com/app/553420/TUNIC/</p>
-        <Image src={'/2024/arushiro/image3.jpg'} height={'50mm'} alt={'ジャンル: 見下ろし型アクションゲーム'}/>
+        <Image src={'/2024/arushiro/image3.jpg'} height={'55mm'} alt={'ジャンル: 見下ろし型アクションゲーム'}/>
         <p>TUNICはゼルダの伝説夢をみる島のSwitchリメイク版っぽい感じの雰囲気に、ソウルライクな手応えをつけたゲームです。Steamでのクリア率は執筆時点で24.7%とそこそこです。</p>
         <p>TUNICはアクション要素が難しいから紹介をしようと思ったわけではありません。次の画像はゲーム内で表示できる説明書の画像ですが、ご覧ください。</p>
-        <Image src={'/2024/arushiro/image7.jpg'} height={'50mm'}/>
+        <Image src={'/2024/arushiro/image7.jpg'} height={'65mm'}/>
         <p>ゲーム中ほとんどの文字がこんな感じで謎の言語によって記述されています。</p>
         <p>この言語は解読可能なのですが、ゲームをクリアするだけなら別に言語の意味を解読する必要はありません。</p>
         <p>しかし、全ての謎を解くためにはこの言語の意味を解読する必要があります。</p>

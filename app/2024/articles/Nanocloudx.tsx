@@ -50,7 +50,7 @@ export function Nanocloudx() {
                 「<b>エティハド航空</b>」はアブダビ発着。バスに乗り継ぎ２時間弱でドバイに行けますの。成田みたいな感じですわね。
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/01.jpg'} alt={'ザイード(アブダビ)国際空港'}/>
+            <Image height={'55mm'} src={'/2024/nanocloudx/01.jpg'} alt={'ザイード(アブダビ)国際空港'}/>
           </TwoColumn>
           <p>
             流石オイルマネーの国なので、エコノミークラスでも十分豪華。空港も豪華。どちらの航空会社も美しくて良きですわ！
@@ -65,9 +65,9 @@ export function Nanocloudx() {
         <section>
           <h2>砂漠を掘ってみた</h2>
           <p>ドバイ着いたし、早速油田を掘り当てるゾ！！！</p>
-          <Image height={'57mm'} src={'/2024/nanocloudx/02.jpg'} alt={'うおおおおおお！！！'}/>
-          <Image height={'57mm'} src={'/2024/nanocloudx/03.jpg'} alt={'うおおおおおおおおおおおお！！！！！！'}/>
-          <Image height={'57mm'} src={'/2024/nanocloudx/04.jpg'} alt={'むりですわーーーーー'}/>
+          <Image height={'60mm'} src={'/2024/nanocloudx/02.jpg'} alt={'うおおおおおお！！！'}/>
+          <Image height={'60mm'} src={'/2024/nanocloudx/03.jpg'} alt={'うおおおおおおおおおおおお！！！！！！'}/>
+          <Image height={'60mm'} src={'/2024/nanocloudx/04.jpg'} alt={'むりですわーーーーー'}/>
         </section>
       </Page>
       <Page pageNumber={startPage + 2}>
@@ -96,7 +96,7 @@ export function Nanocloudx() {
           </p>
           <p>建物は夏季に吹き付ける熱波に耐えるため、特徴的な形をしていたり様々な建築技術が集まっているのも魅力。建築好きには堪りませんわ！</p>
           <p>地上555m(148階)の展望室「アット・ザ・トップ」は圧巻。地球が球体だとわかります。</p>
-          <Image height={'107mm'} src={'/2024/nanocloudx/05.jpg'} alt={'もはや神々しい'}/>
+          <Image height={'110mm'} src={'/2024/nanocloudx/05.jpg'} alt={'もはや神々しい'}/>
         </section>
       </Page>
       <Page pageNumber={startPage + 3}>
@@ -111,12 +111,12 @@ export function Nanocloudx() {
                 モール内には1200以上の店舗の他、水族館、スケートリンク、カートサーキット、映画館、ホテルなどなど。
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/06.jpg'} alt={'とにかく広すぎてよくわからない'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/06.jpg'} alt={'とにかく広すぎてよくわからない'}/>
           </TwoColumn>
         </section>
         <section>
           <TwoColumn>
-            <Image height={'50mm'} src={'/2024/nanocloudx/07.jpg'} alt={'ふれあいというか罰ゲームじゃん'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/07.jpg'} alt={'ふれあいというか罰ゲームじゃん'}/>
             <div>
               <h2 style={{marginTop: 0}}>ドバイ・アクアリウム</h2>
               <p style={{marginTop: '-0.8rem'}}>(Dubai Aquarium, دبي أكواريوم)</p>
@@ -140,7 +140,7 @@ export function Nanocloudx() {
                 それにしてもEMAAR(中東最大の不動産会社)の主張強すぎません？
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/08.jpg'} alt={'写真じゃ伝わらない迫力'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/08.jpg'} alt={'写真じゃ伝わらない迫力'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
             あまりに広すぎて、これではドバイ・モールだけで旅が終わってしまうわ。
@@ -159,12 +159,12 @@ export function Nanocloudx() {
                 ブルジュ・ハリファが高すぎるせいで錯覚するけど、こちらも十分高層タワーなのだわ〜！
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/09.jpg'} alt={'命綱でブランコできるよ'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/09.jpg'} alt={'命綱でブランコできるよ'}/>
           </TwoColumn>
         </section>
         <section>
           <TwoColumn>
-            <Image height={'50mm'} src={'/2024/nanocloudx/10.jpg'} alt={'規模感がしゅごい'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/10.jpg'} alt={'規模感がしゅごい'}/>
             <div>
               <h2>パーム・ジュメイラ</h2>
               <p style={{marginTop: '-0.8rem'}}>(Palm Jumeirah, نخلة جميرا)</p>
@@ -187,7 +187,7 @@ export function Nanocloudx() {
                 なかなか美味でしたけれども、なんで浮いてるんですかねぇ。。。どうやらこれは世界各地で行われているらしいですわ。
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/11.jpg'} alt={'どういうことやねん'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/11.jpg'} alt={'どういうことやねん'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
             なんだか登ってばかりですわね。都市部から砂漠に移動してみましょう。
@@ -206,12 +206,12 @@ export function Nanocloudx() {
                 自然のジェットコースターを愉しみつつ、夕日が沈む時間帯の砂漠は絶景ですの！
               </p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/12.jpg'} alt={'横転しないんだろうか'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/12.jpg'} alt={'横転しないんだろうか'}/>
           </TwoColumn>
         </section>
         <section>
           <TwoColumn>
-            <Image height={'50mm'} src={'/2024/nanocloudx/13.jpg'} alt={'砂漠が海に見えますわ！'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/13.jpg'} alt={'砂漠が海に見えますわ！'}/>
             <div>
               <h2>熱気球</h2>
               <p style={{marginTop: '-0.8rem'}}>(Hot air balloon, منطاد الهواء الساخن)</p>
@@ -233,7 +233,7 @@ export function Nanocloudx() {
               </p>
               <p>海岸沿いに並ぶドバイの伝統的な町並みを体験できますの。本当に絨毯売ってるのね。潮風が心地よいですわ〜。</p>
             </div>
-            <Image height={'50mm'} src={'/2024/nanocloudx/14.jpg'} alt={'アラジンの世界みたい'}/>
+            <Image height={'57mm'} src={'/2024/nanocloudx/14.jpg'} alt={'アラジンの世界みたい'}/>
           </TwoColumn>
           <p style={{textAlign: 'center'}}>
             12月でも若干暑いぐらいでしたので、夏は相当大変そうですわ。
@@ -249,8 +249,8 @@ export function Nanocloudx() {
             </p>
           </div>
           <TwoColumn>
-            <Image height={'43mm'} src={'/2024/nanocloudx/15.jpg'} alt={'なんだこれは'}/>
-            <Image height={'43mm'} src={'/2024/nanocloudx/16.jpg'} alt={'たまげたなぁ'}/>
+            <Image height={'45mm'} src={'/2024/nanocloudx/15.jpg'} alt={'なんだこれは'}/>
+            <Image height={'45mm'} src={'/2024/nanocloudx/16.jpg'} alt={'たまげたなぁ'}/>
           </TwoColumn>
         </section>
         <section>
@@ -263,7 +263,7 @@ export function Nanocloudx() {
             <p>
               あなたもドバイでチャイティー片手に石油王を目指してみませんか？
             </p>
-            <Image height={'90mm'} src={'/2024/nanocloudx/18.jpg'}
+            <Image height={'94mm'} src={'/2024/nanocloudx/18.jpg'}
                    alt={'ブルジュ・ハリファの展望台「At The Top」より愛を込めて'}/>
           </div>
         </section>

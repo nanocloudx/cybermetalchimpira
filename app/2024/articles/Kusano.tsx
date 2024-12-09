@@ -23,11 +23,11 @@ export function Kusano() {
           ここに2枚の画像があります。
           それぞれの画像を見ても何の情報も得られません。
         </p>
-        <Image height={'35mm'} src={'/2024/kusano/figure1.png'}/>
+        <Image height={'40mm'} src={'/2024/kusano/figure1.png'}/>
         <p>
           この2枚の画像を、各画素についてどちらか一方でも黒い画素なら黒として重ねると、次のように「サメチン」の文字が浮かび上がります。
         </p>
-        <Image height={'35mm'} src={'/2024/kusano/figure2.png'}/>
+        <Image height={'40mm'} src={'/2024/kusano/figure2.png'}/>
         <p>重ねる様子をYouTubeにアップロードしました。</p>
         <Image height={'20mm'} src={'/2024/kusano/qr.png'}/>
         <p style={{marginTop: '-1rem', textAlign: 'center'}}>https://youtu.be/HlhFV0BwtnU</p>
@@ -41,7 +41,7 @@ export function Kusano() {
           一方の画像が暗号文で他方が鍵と考えることもできますし、オリジナルの画像の情報が2枚の画像に分散されていると考えることもできます。
         </p>
         <h2>原理</h2>
-        <Image height={'37mm'} src={'/2024/kusano/figure3.png'}/>
+        <Image height={'40mm'} src={'/2024/kusano/figure3.png'}/>
         <p>
           原理も簡単です。この図は、2枚の画像から1行ずつ抜き出したものと、それを重ね合わせたものを表しています。
           オリジナルの画像の1個の画素が、暗号化したそれぞれの画像では2個の画素に対応します。
@@ -58,7 +58,7 @@ export function Kusano() {
           さらに、3枚のうちどれか2枚を重ねるの（2 of 3）か、それとも2枚ではなく3枚全てを重ねて初めて絵が浮かび上がるのか（3
           of 3）を制御することもできます。例を示します。
         </p>
-        <Image height={'50mm'} src={'/2024/kusano/figure4.png'}/>
+        <Image height={'55mm'} src={'/2024/kusano/figure4.png'}/>
       </Page>
       <Page pageNumber={startPage + 2}>
         <p>

@@ -23,7 +23,8 @@ export function MokujiLayout({articleInfoList}: Props) {
             )
           case 'mokuji':
           case 'okuduke':
-          case 'omake':
+          case 'omake1':
+          case 'omake2':
             return null
           default:
             return (

@@ -61,7 +61,7 @@ export function Nag4() {
         </section>
       </Page>
       <Page pageNumber={startPage + 2}>
-        <Image height={'59mm'} src={'/2024/nag4/image1.png'} alt={'図表1-2-1　平均寿命の推移(厚生労働省)'}/>
+        <Image height={'63mm'} src={'/2024/nag4/image1.png'} alt={'図表1-2-1　平均寿命の推移(厚生労働省)'}/>
         <section>
           <h2>死の恐怖を超えた現代社会は「生き続ける恐怖」に直面している</h2>
           <p>ほとんどの人が天寿を全うして死ぬようになり、その結果として高齢化社会になりました。高齢化社会という社会問題も考えたいのですが、本稿の範囲は社会全体まで広げず、自分自身に絞ります。</p>
