@@ -3,7 +3,6 @@ import {Title} from '@/components/Title'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2024/articleInfoList'
 import {Image} from '@/components/Image'
-import {TwoColumn} from '@/components/TwoColumn'
 
 export function Fuyutsubaki() {
   const info = getArticleInfo('fuyutsubaki', articleInfoList)
